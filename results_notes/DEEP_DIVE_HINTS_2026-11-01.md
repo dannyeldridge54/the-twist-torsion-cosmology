@@ -198,3 +198,20 @@ better starting points is needed before the Late Twist counts as tested; it need
   expectation H3 (LD likely WEAKENED or NOT CONFIRMED).
 - **The bug:** not reported anywhere public (AxiCLASS has no issue on `include_scf_in_delta_m`), so our finding is
   new. Reporting it is drafted and on hold.
+
+## Dive to exhaustion (2026-11-01 15:08): 5 web rounds, the last with no new claim-relevant hits
+
+| Round | Found | Use |
+|---|---|---|
+| 1 | Babu & Amendola, arXiv:2610.23497 (coupled cosine thawing, abs(β) < 0.073) | Coupled Twist prior art; supports C5 EXCLUDED (COUPLED_TWIST_NOTES.md) |
+| 2 | Coupled-DE claims range from about 2σ (arXiv:2604.12032) to more than 5σ (claims not verified) | Context for C1/C2; do not quote the high claims without the primary papers |
+| 2 | Poulin, Smith, Calderón & Simon, arXiv:2505.08051: profile f_EDE = 0.09 ± 0.03 (Planck + ACT DR6 + DESI) | **Independent agreement** with our profile (0.05–0.10); already cited |
+| 3 | SPT-3G D1 axion-EDE (Khalife et al., arXiv:2507.23355): f_EDE < 0.070, weak preference | Matches our weak hint; already cited |
+| 3 | Immirzi + fermions: Alexandrov arXiv:0802.1221; Freidel, Minic & Takeuchi hep-th/0507253; arXiv:0811.1998; Mercuri gr-qc/0601013 and arXiv:0903.4407 | **T3:** the spin (axial-current) coupling depends on minimal versus non-minimal fermion coupling and can vanish classically. T3 must state its coupling choice first |
+| 4 | No published birefringence prediction from the BI field. Thawing-axion birefringence + DESI already exists: arXiv:2504.17638, 2503.18924, 2602.00820. Counter-view: arXiv:2412.05982 (the field goes to zero late) | **B4 novelty is only the torsion-fixed coefficient c_γ.** Cite the generic idea's papers. Address 2412.05982 |
+| 5 | Equality-triggered EDE prior art (arXiv:2402.03684, 2303.15523, 2102.06399, 2404.19695) | Already cited (2402.03684, 2303.15523). The companion arXiv:2301.03572 is optional. Citation 2303.15523 verified correct |
+
+**Citations to add with the final paper update:** arXiv:2610.23497, 2604.12032, 2608.09487, 2504.17638, 2604.09141,
+2503.18924. For B4 and T3 notes: 0802.1221, hep-th/0507253, 0811.1998, 2412.05982.
+
+**Claim changes:** none. **On track:** yes.
