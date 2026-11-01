@@ -9,8 +9,8 @@ fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JO
 13638be1bce24a59e48ee057218612ccf5ade957b62e328d78b7ca81ef53fc13        2111  REPRODUCE.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
 427c6b0f119ded13baf525639cc65a5463df51201deee609dfb9dc5f01fb3890        8110  code/analysis/auto_judge.py
-a0a6a5541194fb01d6c2bd558600be1fd0b2aa563d7d076282156d1a9775427a        6714  code/analysis/build_repository.py
-6f94442d3886269dde665eb7c0c759ed5f82a6758259f0c6317bd94b9d38f43f        5060  code/analysis/build_zenodo_v3.py
+77835de4e3bf3d2771b98ca853fe73514c8435de44df66d6de74e084350405d4        6789  code/analysis/build_repository.py
+58396f19db8c97c3779b41c6da550a81cf13baf98666e50de932cb7f4d62bd47        5121  code/analysis/build_zenodo_v3.py
 ce91088456ec458e3bd01d14d9bcb2dee0984b281aeaf909d9dcfd16a9f38f01        2403  code/analysis/fix_mojibake.py
 1311c865c33855b01917c86359fad559e0e9b8d92bbf857d1861b0e37df481bc        5367  code/analysis/house_check.py
 5e224b1d444f68e50a18d7ea6b9340f1ce79a1f73010cc5bef532cdf79ddb21f        9124  code/analysis/lock_attractor.py
@@ -52,6 +52,10 @@ f6a2a3dc912b227bfcd57854b3f773f5280a1182a2cb77d098c23d437d087b89        1223  co
 b6b4318325ccc935b617874159a9c5d158f7572fb078a894363d4b1836004b69        5322  code/coupled/gates.py
 0bd9c18cda0f53ba5f5802c1efd9141ad61eecf86ffb44dcf55cd59794e2e73a        6295  code/coupled/patch_coupling.py
 7015031bdfcb5de1ce623b938b12b2cd9ca593e189476e24251ff1d2e0b8973a         345  code/coupled/run_v1.sh
+15e445d8ade7f86d9fa5a90fdb07fc38d7d13510c441ff237b1e7c7cc545ecb0        4275  code/nlfix/0001-nl-scf-fix-field-out-of-halofit-HMcode-Omega_m-n_axi.patch
+d4e56db2be149688a7312c089ce6328f12b2b0e1606b9ca202d6594a36577542         667  code/nlfix/build_nlfix.sh
+8505e72bdc09048f677034b21de75ead7010c88e57f42c31e28c9d3e55b45941        2126  code/nlfix/null_mirror_nlfix.py
+324774967ece339760c041810da403f4da9ad37cb0f28aa8c071ff2ee1be32b8        3989  code/nlfix/patch_nlfix.py
 ccd312cb90f5e10d45bf234d85ac6449daa5a98c0857321c5370b4b6601ad7d4         139  fit_results/N_PACT_LOCK.json
 296439677549597e68b39a4e688a8cc0e2e2db5503b03ddcbde12463c31d4604         149  fit_results/VERDICT_LOCK.json
 fffa5b63bad51672fd70a7de44cce331ebd72835576e7e41d9dbf9c35cc39160        1243  fit_results/cmp_ax_spa_edelock.json

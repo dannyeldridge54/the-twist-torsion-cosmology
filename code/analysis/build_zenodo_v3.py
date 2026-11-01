@@ -31,6 +31,7 @@ GROUPS = {
                        "width_spt_edelock.json")],
     "code": glob.glob(AE + r"\cmb-fit\axiclass\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\*.sh")
             + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.sh")
+            + glob.glob(AE + r"\cmb-fit\axiclass\nlfix\*.*")
             + [AE + r"\cmb-fit\cmbfit_compare.py"]
             + [CM + "\\" + f for f in ("rank_models.py", "house_check.py", "audit_all.py", "fix_mojibake.py",
                                        "lock_attractor.py", "look_elsewhere.py", "auto_judge.py",

@@ -90,6 +90,7 @@ def main():
             sub = grp
             if grp == "code":
                 sub = ("code/coupled" if os.sep + "coupled" + os.sep in f else
+                       "code/nlfix" if os.sep + "nlfix" + os.sep in f else
                        "code/axiclass" if f.startswith(AE) else "code/analysis")
             place(f, os.path.join(sub, os.path.basename(f)))
             if grp in ("preregistrations", "fit_results") and f.endswith((".md", ".json")):
