@@ -1,0 +1,482 @@
+[
+ {
+  "lambda": 0.1,
+  "beta": 0.0,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.0,
+   3.122,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.0,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 1.0,
+  "kind": "saddle",
+  "eig": [
+   -1.5,
+   1.5,
+   -1.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.0,
+  "x": -0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   1.0,
+   -1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.0,
+  "x": 0.04082,
+  "y": 0.99917,
+  "Omega_r": -0.0,
+  "Omega_m": -1e-05,
+  "kind": "attractor",
+  "eig": [
+   -2.99,
+   -2.995,
+   -3.99
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.0,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.0,
+   2.878,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.1,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   2.794,
+   3.122,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.1,
+  "x": -0.06876,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.99527,
+  "kind": "saddle",
+  "eig": [
+   -1.493,
+   1.516,
+   -0.986
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.1,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   -1.0,
+   1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.1,
+  "x": 0.04082,
+  "y": 0.99917,
+  "Omega_r": 0.0,
+  "Omega_m": -1e-05,
+  "kind": "attractor",
+  "eig": [
+   -2.982,
+   -2.995,
+   -3.99
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 0.1,
+  "beta": 0.1,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.206,
+   2.878,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.0,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.0,
+   4.225,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.0,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 1.0,
+  "kind": "saddle",
+  "eig": [
+   -1.5,
+   1.5,
+   -1.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.0,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   1.0,
+   -1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.0,
+  "x": 0.40825,
+  "y": 0.91287,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "attractor",
+  "eig": [
+   -2.0,
+   -2.5,
+   -3.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.0,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.0,
+   1.775,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.1,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   2.794,
+   4.225,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.1,
+  "x": -0.06876,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.99527,
+  "kind": "saddle",
+  "eig": [
+   -1.493,
+   1.591,
+   -0.986
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.1,
+  "x": -0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   -1.0,
+   1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.1,
+  "x": 0.40825,
+  "y": 0.91287,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "attractor",
+  "eig": [
+   -1.916,
+   -2.5,
+   -3.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 1.0,
+  "beta": 0.1,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.206,
+   1.775,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   3.0,
+   6.674,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 1.0,
+  "kind": "saddle",
+  "eig": [
+   -1.5,
+   1.5,
+   -1.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": 0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   1.0,
+   -1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": 0.40825,
+  "y": 0.40825,
+  "Omega_r": 0.0,
+  "Omega_m": 0.66666,
+  "kind": "attractor",
+  "eig": [
+   -0.75,
+   -0.75,
+   -1.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": 0.54433,
+  "y": 0.3849,
+  "Omega_r": 0.55556,
+  "Omega_m": -0.0,
+  "kind": "saddle",
+  "eig": [
+   -0.5,
+   -0.5,
+   1.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.0,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   3.0,
+   -0.674,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": -1.0,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.0,
+  "kind": "repeller",
+  "eig": [
+   2.794,
+   6.674,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": -0.06876,
+  "y": 0.0,
+  "Omega_r": 0.0,
+  "Omega_m": 0.99527,
+  "kind": "saddle",
+  "eig": [
+   -1.493,
+   1.76,
+   -0.986
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": -0.0,
+  "y": 0.0,
+  "Omega_r": 1.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   -1.0,
+   1.0,
+   2.0
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": 0.3971,
+  "y": 0.43011,
+  "Omega_r": 0.0,
+  "Omega_m": 0.65732,
+  "kind": "attractor",
+  "eig": [
+   -0.77,
+   -0.77,
+   -1.082
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": 0.54433,
+  "y": 0.3849,
+  "Omega_r": 0.55556,
+  "Omega_m": -0.0,
+  "kind": "saddle",
+  "eig": [
+   -0.5,
+   -0.5,
+   1.112
+  ],
+  "saddle_at_equality": false
+ },
+ {
+  "lambda": 3.0,
+  "beta": 0.1,
+  "x": 1.0,
+  "y": 0.0,
+  "Omega_r": -0.0,
+  "Omega_m": 0.0,
+  "kind": "saddle",
+  "eig": [
+   3.206,
+   -0.674,
+   2.0
+  ],
+  "saddle_at_equality": false
+ }
+]
