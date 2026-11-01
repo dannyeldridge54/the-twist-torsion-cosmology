@@ -4,7 +4,7 @@ f4264cffedfce4967e6344bf0bdabe73f368a4c36c728a63bdb33fb41017b72e        1156  CI
 73b9b414c592a312ab5dcc551f0762b301583bee670a3000f73e6fe953705ae9        4703  CLAIMS_INDEX.md
 fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JOURNEY.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
-dc5fc876f161b2caf7eff53bc6a8aec4e2f1c78276b42865d1552dc60a93eab7       11198  LOCK_TIMES.md
+740b400b2f953be1b48171f8fcf9e3452b7f1fb51bbef3cbd2aa0c5035681797       11495  LOCK_TIMES.md
 58fe0ef9150fdb8984bf9b4259daabdf4b63f4d41fa8f000e8d3b6a49b13e37f       11055  README.md
 13638be1bce24a59e48ee057218612ccf5ade957b62e328d78b7ca81ef53fc13        2111  REPRODUCE.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
@@ -66,12 +66,16 @@ bc9fae3e1f888d6e84ae8d38bd7c9864a2c0cf76c1917af6114c709b3f8e9bf4        1201  fi
 d5ea988a6dce8caaeb533d46c10e1f49a8f57b416713c26078c07860e177b480        1198  fit_results/cmp_ax_spa_latetwist_gF0.2m0.4.json
 34d0ed37e388cffe81a9fd01b999fa6bf521039b26f8d3ddf272b7210b9b643d        1196  fit_results/cmp_ax_spa_latetwist_gF0.2m0.json
 394e46a5f2108c3803f2e5321b1cb0c2ab6a071aca17ebe404a965e352271b20        1202  fit_results/cmp_ax_spa_latetwist_gF0.4m-0.3.json
+5a9c5910aebe896ce5636e426e4f1867a43597cbf50f565c853c67026e638392        1198  fit_results/cmp_ax_spa_latetwist_gF0.4m-0.3_desy5.json
 91a9788abd5081deacf87ac352d360582ed7b32bb8f136694afad8480737e700        1196  fit_results/cmp_ax_spa_latetwist_gF0.4m0.2.json
+5d9272613add7a96207edec93ab154e303be261a45d9f11e929f9c68e78fc42f        1197  fit_results/cmp_ax_spa_latetwist_gF0.4m0.2_desy5.json
 c2400dc315910980c993ccb7df3488accc1b51e2961e8d3523a4e1bdcc179838        1199  fit_results/cmp_ax_spa_latetwist_gF0.4m0.4.json
 2595d15ebe974fbba3e85d8b72378b20e024d97cbcd5e6a8678e3d2e9f7cb211        1201  fit_results/cmp_ax_spa_latetwist_gF0.4m0.json
 051f59f29fa439ae775c5d45f62cdbd50cf85753bccaa6057712eaefae400c35        1200  fit_results/cmp_ax_spa_latetwist_gF0.5m-0.3.json
 522c1c7393f709220fd25bcb4f83ba7394c8e5119d5ac735a2bdf84e944d89b0        1199  fit_results/cmp_ax_spa_latetwist_gF0.5m-0.3_desy5.json
+8ea1722144227c29eb0ec779a63b6a2886cc949ecc0e970ce9bc835a2bdc7cd1        1201  fit_results/cmp_ax_spa_latetwist_gF0.5m0.2.json
 c1fc6301a9a16fa5858e243e3cc882a0759d6e483487f4c50f39c8f879b24345        1201  fit_results/cmp_ax_spa_latetwist_gF0.5m0.2_desy5.json
+9e896049b9c62578bbe7690cde8de83320e26db5da738cf44be0240019d60062        1199  fit_results/cmp_ax_spa_latetwist_gF0.5m0.4.json
 3e5600c7e84797cb3868258973fb46225e51fc55f04deb3203c2df92458ad5f9        1194  fit_results/cmp_ax_spa_latetwist_gF0.5m0.4_desy5.json
 87f11f952e4a039af1d714cfb6605c08af86cc74b25932591ec8066732a4c086        1197  fit_results/cmp_ax_spa_latetwist_gF0.5m0.json
 6e88b16055f7a4841364d358a3348d8103f01b626164d7199a653b7388e8e753        1200  fit_results/cmp_ax_spa_latetwist_gF0.5m0_desy5.json
