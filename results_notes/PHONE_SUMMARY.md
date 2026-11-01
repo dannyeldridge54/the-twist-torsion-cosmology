@@ -139,3 +139,15 @@
   pre-registered tests.
 
 *Offered freely to everyone, especially the people who will build the technologies and crafts to come.*
+
+## Update 2026-11-01 17:43
+
+- **Late Twist grid done.**
+  - Pantheon+: a tie with ΛCDM once the code bug is corrected (FAIL as written).
+  - DES Y5: better than ΛCDM by 5.3, but only 1.0σ after counting the search. It still needs the corrected-supernova
+    (Dovekie) check tonight.
+  - Worse than w0–wa with both supernova sets.
+- **Coupled Twist (5 of 9 points):** the coupling is bimodal (beta about +0.045 or -0.044), and the negative one is best; a small negative coupling (β ≈ −0.04) improves the fit by 7.8 over the
+  uncoupled Twist. It agrees with an independent October 2026 paper (Babu & Amendola, mode near −0.05). Preliminary.
+- **Emails:** lawyer (free licence review) and one scientist (Poulin: bug report + endorsement request). Waiting for
+  replies.

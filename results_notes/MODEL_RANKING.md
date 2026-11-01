@@ -50,9 +50,9 @@ Data: Planck low-ℓ + ACT DR6 + ACT×Planck lensing + SPT-3G D1 lite + DESI DR2
 
 ## 3b. Coupled Twist (gates V1-V4 passed: COUPLED_TWIST_GATES.md)
 
-- **C1** (vs ΛCDM): Δχ² = pending → **pending**
-- **C2** (coupling needed vs Late Twist rerun): D_c = pending → **pending**
-- **C3** (vs w0–wa): ΔAIC = pending → **pending**
+- **C1** (vs ΛCDM): Δχ² = -6.80 → **PASS**
+- **C2** (coupling needed vs Late Twist rerun): D_c = -7.76 → **NEEDED**
+- **C3** (vs w0–wa): ΔAIC = +5.16 → **WORSE**
 - **C4** (apparent phantom crossing, 0.3 < z < 2): **pending**
 - **C5** (|β| = 0.816 fixed): pending, or EXCLUDED (code-limited) if both fits end with no finite point (deviation log, 08:39)
 - β profile: β=-0.1: pending, β=-0.05: pending, β=0: pending, β=0.05: pending, β=0.1: pending
@@ -60,13 +60,14 @@ Data: Planck low-ℓ + ACT DR6 + ACT×Planck lensing + SPT-3G D1 lite + DESI DR2
 - **HC** (high-mass corner): pending (runs after LD); no finite point at the end = NOT REACHABLE
 - **Null mirror:** the Late Twist code sits about +1.35 above ΛCDM in its frozen (Λ) limit (LATE_TWIST_NULL_MIRROR.md: two code bugs, the forced δ_m for n_axion = 1 and halofit's inflated Ω_m; fixed in a separate build, null mirror +0.13, PASS). Comparisons with Λ-based references carry this offset; the verdicts above are as written.
 - **LEE-G, Pantheon+:** Δχ²_loc = +0.96 → **NOT SIGNIFICANT**
-- **LEE-G, DES Y5:** Δχ²_loc = -5.32, N_eff = 5 F values; Z_loc 1.81σ → Z_glob 1.03σ → **WEAK HINT**  (official fit incomplete)
+- **LEE-G, DES Y5:** Δχ²_loc = -5.32, N_eff = 5 F values; Z_loc 1.81σ → Z_glob 1.03σ → **WEAK HINT**
 - **LD** (Late Twist on DES-Dovekie): pending (runs after the edge scan)
 
 ## Grid status (deviation 08:58: lowest grid χ² is the fit; resolution 0.2 dex)
 
+- ax_spa_coupledtwist: 4 grid point(s) finished; best = ax_spa_coupledtwist_gF0.3m-0.1 (χ² 2395.46)  ← verdicts are final only when the grid is complete
 - ax_spa_latetwist: 14 grid point(s) finished; best = ax_spa_latetwist_gF0.5m-0.3 (χ² 2403.22)
-- ax_spa_latetwist_desy5: 18 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)  ← verdicts are final only when the grid is complete
+- ax_spa_latetwist_desy5: 22 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)
 
 ## 4. Filter rule (how the headline is chosen)
 

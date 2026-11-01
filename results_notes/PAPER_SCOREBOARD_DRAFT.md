@@ -23,10 +23,10 @@ counted as pre-registered.
 | 13 | P4 / P4b: width N = 9 / 7 | SPT-3G prefers 24 | FAIL (inconsistent) |
 | 14 | Potential power n = 2 vs 3 | n = 2 worse by 10.35 | n = 3 favoured |
 | 15 | Lock from the dynamics (phase space) | no saddle; ×3.5 spread | NO LOCK |
-| 16 | Late Twist L1 (vs ΛCDM) | free fits stalled; grid best +1.15 as written (≈ −0.2 offset-corrected, cause confirmed: halofit) | FAIL as written; *grid pending* |
-| 17 | Late Twist L2 (vs w0–wa) | worse either way | WORSE; *grid pending* |
+| 16 | Late Twist L1 (vs ΛCDM), Pantheon+ | grid best +0.96 as written (≈ −0.4 on the fixed code) | FAIL (a tie once corrected) |
+| 17 | Late Twist L2 (vs w0–wa) | D = +10.92 (Pantheon+), +14.44 (DES Y5) | WORSE |
 | 18 | Late Twist L3, P9: shared F | late/early ≈ 7 | DIFFERENT so far; *grid pending* |
-| 19 | Edge scan (DES Y5 blind) | — | *pending* |
+| 19 | Edge scan (DES Y5 blind) | best edge −5.05; none beats the grid's −5.32 | done (no change) |
 | 20 | Coupled Twist C1–C4 | gates V1–V4 pass | *pending* |
 | 21 | Coupled Twist C5: β = 0.816 | — | *pending* (expected EXCLUDED) |
 | 22 | Star fractal, 1D–6D | homogeneous 3–100 pc; fractal-like in phase space | as stated (art track) |
@@ -41,6 +41,7 @@ counted as pre-registered.
 | Two codes (CAMB vs AxiCLASS) | within 0.4 | pass |
 | Late Twist null mirror | +1.35 frozen offset; +0.03 without halofit | code artefact (halofit Ω_m bookkeeping) |
 | Pantheon+ edge points | — | *pending*, post-hoc |
+| R2: Late Twist L1 with DES Y5 | −5.32 (official, grid + edge); LEE-G Z_glob 1.03σ | PASS → the Late Twist verdict depends on the SN set; LD pending |
 
 ## Tally (to be finalised)
 

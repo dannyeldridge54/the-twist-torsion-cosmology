@@ -81,3 +81,37 @@ Near the ΛCDM-like corner (F = 3.16, m = 0.5) it is **+0.38**. So:
 
 **Meanwhile, the official verdicts stand as written.** Robustness batch 2 (the Late Twist with DES Y5) uses the same
 settings, so it may stall the same way.
+
+## Grid results (2026-11-01 17:43; deviation 08:58: lowest grid χ² is the fit; resolution 0.2 dex)
+
+**Status:** the Pantheon+ grid (24/24) and the DES Y5 official fit (24 grid + 8 locked edge points) are complete. Still
+pending: the Pantheon+ edge points (post-hoc), LD (DES-Dovekie check) and HC (high-mass corner).
+
+**Non-viable points (10 of 24 in both SN sets; penalty or no finite point, possibly code-limited):**
+(log10 F, log10 m) = (−0.4, −0.3), (−0.4, 0), (−0.4, 0.2), (−0.4, 0.4), (−0.2, −0.3), (−0.2, 0), (−0.2, 0.2), (0, −0.3),
+(0, 0), (0.2, −0.3). This is consistent with viability needing m²F² ≳ 1.2.
+
+| | Pantheon+ (official: grid only) | DES Y5 (official: grid + edge) |
+|---|---|---|
+| Best point | F 3.16 M_Pl, m 0.50 H₀ (gF0.5m-0.3) | F 3.16 M_Pl, m 1.00 H₀ (gF0.5m0) |
+| Δχ² vs ΛCDM (halofit), as written | **+0.96** | **−5.32** |
+| Offset-corrected (−1.35, post-hoc; B0) | about −0.4 (tie) | about −6.7 |
+| ΔAIC (2 extra parameters) | +4.96 | −1.32 |
+| L1 (vs ΛCDM) | **FAIL** | **PASS** (R2) |
+| L2: D vs w0–wa | +10.92, **WORSE** (w0–wa itself −9.96) | +14.44, **WORSE** (w0–wa itself −19.76) |
+| L3: natural range | **INCONSISTENT**: F at the prior's upper edge | **INCONSISTENT**: F at the prior's upper edge |
+| CPL mapping of the best point | w0 = −0.980, wa = −0.030 (barely thawing) | w0 = −0.879, wa = −0.178 (clear thaw) |
+| LEE-G (Šidák over distinct F) | Δχ² > 0 → **NOT SIGNIFICANT** | Z_loc 1.81σ → **Z_glob 1.03σ (N_eff = 5), WEAK HINT** |
+| Next best | F 1.58 m 1 (+1.15); F 2.51 m 0.5 (+1.16) | F 2.51 m 1 (−4.28); F 1.58 m 1 (−4.14); edge F 1 m 1.26 (−5.05) |
+
+**DES Y5 edge points (locked blind, 12:34:01):** −0.41, −5.05, +0.14, −2.68, +1.33, +0.23, +1.85, +0.58. None beats the
+grid best, so the official DES Y5 best stays −5.32.
+
+**Reading (as pre-registered, stated together as the rules require):**
+- With Pantheon+, the natural n = 1 Twist ties ΛCDM at best and is clearly worse than w0–wa.
+- With DES Y5, it improves on ΛCDM by 5.3, which is only **1.0σ** after counting the search.
+- **The DES Y5 gain must be read together with LD** (the corrected DES-Dovekie sample), which is pending. The
+  expectation recorded beforehand (DEEP_DIVE_HINTS H3) is WEAKENED or NOT CONFIRMED.
+- Both best points sit at the top of the F range (super-Planckian F), which is why L3 fails. HC tests the opposite
+  corner.
+- The field never reaches w0–wa's fit: thawing cannot produce DESI's phantom-like wa.

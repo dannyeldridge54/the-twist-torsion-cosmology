@@ -36,6 +36,10 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 |---|---|
 | N_PACT_LOCK.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | VERDICT_LOCK.json | 2c80939 2026-10-29 16:58:00 -0500 |
+| cmp_ax_spa_coupledtwist_gF0.3m-0.1.json | f2fec1c 2026-11-01 17:36:17 -0600 |
+| cmp_ax_spa_coupledtwist_gF0.5m-0.1.json | 16f35bb 2026-11-01 17:43:58 -0600 |
+| cmp_ax_spa_coupledtwist_gF0.5m-0.3.json | f2fec1c 2026-11-01 17:36:17 -0600 |
+| cmp_ax_spa_coupledtwist_gF0.7m-0.3.json | 16f35bb 2026-11-01 17:43:58 -0600 |
 | cmp_ax_spa_edelock.json | 651a0cc 2026-11-01 07:55:05 -0600 |
 | cmp_ax_spa_edelock_w0wa.json | 651a0cc 2026-11-01 07:55:05 -0600 |
 | cmp_ax_spa_edelock_w0wa_b4.json | e2108b5 2026-11-01 11:57:14 -0600 |
@@ -53,7 +57,9 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0.2m0.4_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
+| cmp_ax_spa_latetwist_gF0.4m-0.298_desy5.json | f2fec1c 2026-11-01 17:36:17 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m-0.3.json | b0eaf72 2026-11-01 11:41:33 -0600 |
+| cmp_ax_spa_latetwist_gF0.4m-0.343_desy5.json | f2fec1c 2026-11-01 17:36:17 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m-0.3_desy5.json | 43fd066 2026-11-01 14:19:37 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.2.json | 376e263 2026-11-01 13:07:10 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.2_desy5.json | 74fd79b 2026-11-01 14:13:16 -0600 |
@@ -62,7 +68,9 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0.4m0.json | e2108b5 2026-11-01 11:57:14 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0_desy5.json | 43fd066 2026-11-01 14:19:37 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m-0.3.json | 376e263 2026-11-01 13:07:10 -0600 |
+| cmp_ax_spa_latetwist_gF0.5m-0.398_desy5.json | f2fec1c 2026-11-01 17:36:17 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m-0.3_desy5.json | 0ffdb44 2026-11-01 13:20:24 -0600 |
+| cmp_ax_spa_latetwist_gF0.5m-0.443_desy5.json | f2fec1c 2026-11-01 17:36:17 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0.2.json | b0d552f 2026-11-01 14:01:51 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0.2_desy5.json | 376e263 2026-11-01 13:07:10 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0.4.json | b0d552f 2026-11-01 14:01:51 -0600 |
@@ -183,6 +191,8 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_zc4.15.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | cmp_zc4.25.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | cpl_ax_spa_latetwist.stalled1.json | cea6ef3 2026-11-01 07:45:00 -0600 |
+| cpl_ax_spa_latetwist_gF0.5m-0.3.json | c23b00e 2026-11-01 17:43:34 -0600 |
+| cpl_ax_spa_latetwist_gF0.5m0_desy5.json | c23b00e 2026-11-01 17:43:34 -0600 |
 | cross_engine_pact.json | ad196d2 2026-10-31 14:04:12 -0500 |
 | earlyF_ax_spa_edelock_w0wa.json | 78d0f4f 2026-11-01 07:35:15 -0600 |
 | engine_check.json | 2c80939 2026-10-29 16:58:00 -0500 |
