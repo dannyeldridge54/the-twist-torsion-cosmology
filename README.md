@@ -79,6 +79,7 @@ The full scoreboard of every pre-registered test, wins and losses alike, is in
 | `REPRODUCE.md` | How to rebuild the environment and rerun any fit |
 | `verify.py` | Recomputes every hash: rules against their `.sha256` files and all files against `MANIFEST.txt` |
 | `MANIFEST.txt` | SHA-256 and size of every file in this repository |
+| `JOURNEY.md` | How the work got here, step by step, including the failures |
 | `paper/` | Paper v3 (LaTeX and PDF) |
 | `preregistrations/` | Every rule, with its `.sha256` |
 | `results_notes/` | Verdict write-ups, the thesis, the route, reviews, the scoreboard |
@@ -99,13 +100,74 @@ This confirms that no rule or result changed after it was hashed. `LOCK_TIMES.md
 commit came before its result's commit. The original commit history lives in the two working repositories (AEGIS and
 CubeMind) and is available on request.
 
-## 6. Earlier records
+## 6. Who this is for, and how to use it
+
+| You are… | Use this for |
+|---|---|
+| **A cosmologist** | A ready AxiCLASS + Cobaya pipeline for early dark energy, thawing (axion) dark energy and a conformally coupled dark-matter–dark-energy model, fitted to Planck + ACT DR6 + SPT-3G + DESI DR2 + Pantheon+/DES Y5/DES-Dovekie. Compare your model's χ² to ours on the same data. |
+| **A code developer** | A documented AxiCLASS bug: halofit and HMcode read a scalar field's ρ − 3p as matter, so dark-energy fields bias the non-linear correction (`results_notes/LATE_TWIST_NULL_MIRROR.md`). There is also a 12-edit patch adding a CDM–scalar coupling to AxiCLASS, with validation gates. |
+| **A student** | A worked, end-to-end example of a real likelihood analysis: minimisers, profile likelihoods, look-elsewhere corrections, robustness across data sets, and null tests. |
+| **A meta-scientist, or anyone who teaches research methods** | A complete open-science record: every rule hashed before its result, an append-only deviation log, lock times from version control, and every loss kept. |
+| **A theorist** | Tests of a Barbero–Immirzi (torsion) field in early and late roles. Section 2 lists the open theory questions: one field or two, the photon coupling, the spin coupling. |
+| **A history or art reader** | The separate track: old astronomy books checked against modern data, and star clustering from 1D to 6D in Gaia. |
+
+## 7. Tools used
+
+- **Physics codes:** CAMB, CLASS and AxiCLASS (axion/EDE fork), with our coupled patch.
+- **Inference:** Cobaya (BOBYQA minimiser, MCMC). candl for SPT-3G.
+- **Data (public likelihoods):** Planck 2018, ACT DR6 (CMB and lensing), SPT-3G D1, DESI DR2 BAO, Pantheon+, DES Y5,
+  DES-Dovekie, Gaia (history track).
+- **Our own tools:**
+  - `rank_models.py`: every verdict, applied exactly as written.
+  - `house_check.py`: the local audit, which checks:
+    - hashes and numbers against their sources;
+    - run health and untracked results;
+    - PDF freshness and header times;
+    - garbled text.
+  - `look_elsewhere.py`, `lock_attractor.py` and `star_fractal.py`.
+  - `build_repository.py` and `verify.py`.
+- **Environment:** Windows + WSL Ubuntu, micromamba, Python 3.11, tectonic (LaTeX). Everything ran on one home PC.
+- **AI assistance:** Claude (Anthropic) helped with code, fitting, checks and writing, under the author's direction
+  and the pre-registration rules (commit trailers say which commits).
+
+## 8. How we got here
+
+The full story is in `JOURNEY.md`. In short:
+1. **An intuition:** space can twist.
+2. **Version 1 failed.** It had 12 bugs and was really the standard model relabelled. It was quarantined, not hidden.
+3. **Version 2** made the twist a real field (the Barbero–Immirzi field) and fitted it with professional codes. A
+   "lock" to matter–radiation equality was noticed *after* a free fit, and disclosed as not blind.
+4. **The rules-first method** was adopted. Every later test was hashed before its data were looked at, including
+   the ones that failed: P1, P2 and P4 from symbol-derived numbers, and SPT-3G alone.
+5. **Version 3** (31 October to 1 November 2026):
+   - all three CMB telescopes together;
+   - a profile likelihood and the look-elsewhere correction;
+   - early together with late dark energy;
+   - robustness across supernova samples;
+   - a phase-space test of the lock;
+   - the turn to the late role (the Late Twist), with a grid, edge scan, Dovekie check and high-mass corner;
+   - the Coupled Twist, built and validated;
+   - a null test that found and explained a code artefact.
+6. **Next:** fix the artefact (logged first), derive the photon coupling, and lock a birefringence prediction, the
+   one test only the twist can pass.
+
+## 9. Keywords
+
+cosmology · dark energy · early dark energy (EDE) · evolving dark energy · thawing quintessence · axion dark energy ·
+ultralight axion · Hubble tension · H0 · S8 tension · torsion · Einstein–Cartan gravity · Holst action ·
+Barbero–Immirzi parameter · Nieh–Yan · scalar field · coupled dark energy · interacting dark sector ·
+dark matter–dark energy coupling · phantom crossing · cosmic birefringence · CMB · Planck · ACT DR6 · SPT-3G ·
+DESI DR2 · BAO · type Ia supernovae · Pantheon+ · DES Y5 · DES-Dovekie · CLASS · AxiCLASS · CAMB · Cobaya ·
+halofit · HMcode · likelihood analysis · profile likelihood · look-elsewhere effect · pre-registration ·
+open science · reproducible research · null results · Gaia · fractal dimension · history of astronomy
+
+## 10. Earlier records
 
 - Zenodo: N = 9 prediction 10.5281/zenodo.23838969
 - Zenodo: Silver 10.5281/zenodo.23839507
 - Zenodo: UFE v2 paper 10.5281/zenodo.23847152
 
-## 7. Thanks
+## 11. Thanks
 
 To everyone whose public data and open codes made this possible: Planck, ACT, SPT-3G, DESI, Pantheon+, DES, CAMB,
 CLASS and AxiCLASS, Cobaya. And to everyone who came before.

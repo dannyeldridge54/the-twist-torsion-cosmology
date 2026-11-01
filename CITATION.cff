@@ -9,6 +9,27 @@ date-released: 2026-11-01
 url: https://github.com/dannyeldridge54/the-twist-torsion-cosmology
 repository-code: https://github.com/dannyeldridge54/the-twist-torsion-cosmology
 license-url: https://github.com/dannyeldridge54/the-twist-torsion-cosmology/blob/main/LICENSE
+keywords:
+  - cosmology
+  - dark energy
+  - early dark energy
+  - thawing quintessence
+  - axion dark energy
+  - Hubble tension
+  - torsion
+  - Einstein-Cartan gravity
+  - Barbero-Immirzi parameter
+  - coupled dark energy
+  - cosmic birefringence
+  - CMB
+  - DESI
+  - BAO
+  - supernovae
+  - AxiCLASS
+  - Cobaya
+  - pre-registration
+  - open science
+  - reproducible research
 references:
   - type: generic
     title: 'Torsion-Born Early Dark Energy with an Onset Locked to Matter-Radiation Equality (UFE v2)'
