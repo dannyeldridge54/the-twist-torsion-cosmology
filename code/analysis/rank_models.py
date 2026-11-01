@@ -54,6 +54,24 @@ def grid_files(name):
     return out
 
 
+def grid_accounted(name):
+    """Of the 24 locked grid points, how many are finished: a result file, or a run that ended non-viable (penalty or no
+    finite point; those leave no result file). The edge points are not counted here."""
+    sfx = "_desy5" if name.endswith("_desy5") else ""
+    base = name[:-len(sfx)] if sfx else name
+    done = 0
+    for lf in GRID_LF:
+        for lm in GRID_LM:
+            n = f"{base}_gF{lf:g}m{lm:g}{sfx}"
+            log = os.path.join(RES, "lanes", f"{n}.log")
+            if os.path.exists(os.path.join(RES, f"cmp_{n}.json")):
+                done += 1
+            elif os.path.exists(log) and any(s in open(log, errors="ignore").read()
+                                              for s in ("-100000", "Cannot reproduce log minimum")):
+                done += 1
+    return done
+
+
 def load(name):
     if "_gF" not in name:
         rows = grid_files(name)
@@ -94,7 +112,7 @@ def lee_and_ld():
         zl, zg = z(p_loc), z(p_glob)
         v = "HOLDS" if zg >= 2 else "WEAK HINT" if zg >= 1 else "NOT SIGNIFICANT"
         L.append(f"- **LEE-G, {label}:** Δχ²_loc = {fmt(d)}, N_eff = {n_eff} F values; Z_loc {zl:.2f}σ → "
-                 f"Z_glob {zg:.2f}σ → **{v}**" + ("  (grid incomplete)" if len(rows) < 24 else ""))
+                 f"Z_glob {zg:.2f}σ → **{v}**" + ("  (grid incomplete)" if grid_accounted(name) < 24 else ""))
     ld_ref = chi2("ax_spa_lcdm_halofit_dovekie")
     import glob as _g
     pts = [(json.load(open(p))["minimum"]["chi2"], os.path.basename(p)[4:-5])
@@ -306,8 +324,9 @@ def main():
     nm = os.path.join(RES, "null_mirror_latetwist.json")
     if os.path.exists(nm):
         L.append("- **Null mirror:** the Late Twist code sits about +1.35 above ΛCDM in its frozen (Λ) limit "
-                 "(LATE_TWIST_NULL_MIRROR.md; cause confirmed 13:06: halofit reads an Ω_m inflated by the field, and the "
-                 "offset is +0.03 without halofit). Comparisons with Λ-based references carry this offset; the verdicts "
+                 "(LATE_TWIST_NULL_MIRROR.md: two code bugs, the forced δ_m for n_axion = 1 and halofit's inflated Ω_m; "
+                 "fixed in a separate build, null mirror +0.13, PASS). Comparisons with Λ-based references carry this "
+                 "offset; the verdicts "
                  "above are as written.")
     L += lee_and_ld()
     L.append("")
@@ -316,7 +335,8 @@ def main():
         for k, v in sorted(GRID_N.items()):
             m = load(k)
             L.append(f"- {k}: {v} grid point(s) finished; best = {m.get('grid_run')} (χ² {m['chi2']:.2f})"
-                     + ("  ← verdicts are final only when the grid is complete" if ("latetwist" in k and v < 24)
+                     + ("  ← verdicts are final only when the grid is complete"
+                        if ("latetwist" in k and grid_accounted(k) < 24)
                         or ("coupledtwist" in k and "_beta" not in k and v < 9) else ""))
         L.append("")
     L += ["## 4. Filter rule (how the headline is chosen)", "",

@@ -3,7 +3,8 @@
 Copyright (c) 2012–2026 Danny Lee Eldridge.
 
 This addendum is part of the licence for this repository. It adds to the Hippocratic License 3.0 (HL3-MIL-SV) in
-`LICENSE`; where they differ, the stricter term applies. It covers versions of this repository published on or after
+`LICENSE`; where they differ, the stricter term applies. Because these terms go beyond HL3's official modules, the
+combined licence is named **"HL3-MIL-SV with additional terms (LICENSE-ADDENDUM.md)"**, not plain HL3. It covers versions of this repository published on or after
 1 November 2026.
 
 > **Draft, written with an AI assistant and not yet reviewed by a lawyer.** The author intends to have it reviewed. The

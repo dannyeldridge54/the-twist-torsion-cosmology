@@ -215,3 +215,17 @@ better starting points is needed before the Late Twist counts as tested; it need
 2503.18924. For B4 and T3 notes: 0802.1221, hep-th/0507253, 0811.1998, 2412.05982.
 
 **Claim changes:** none. **On track:** yes.
+
+## Scales dive (2026-11-01 15:23): 4 rounds, the last with no new claim-relevant hits
+
+| Round | Found | Use |
+|---|---|---|
+| 1 | HL3 is customised through official modules; extra terms are not a module. CAL (Corporate Accountability Lab) offers free legal advice on ethical licences, including modifications | Licence now named "HL3-MIL-SV with additional terms"; CAL review added to TODO.md |
+| 1 | EU large-enterprise line: 250+ staff, or above €50M turnover (and €43M balance sheet) | Our "Major Corporation" line (250 people / US$50M) matches the standard |
+| 2 | firstdonoharm.dev/learn confirms the CAL offer (no litigation) and the naming practice | as above |
+| 3 | **Jhaveri, Karwal, Crawford, Hu et al., arXiv:2604.08530 (Apr 2026):** EDE + thawing quintessence with DES-Dovekie as default. EDE alone −9.4 (CMB-BAO); EDE + thawing −12.6; w0–wa −15.8; "EDE remains nearly unaffected" across SN sets | **Required citation and comparison for A3.** Our A3 found the early hint mild and fragile across SN sets (D −3.65 / −2.70 / −4.70). Differences to discuss: thawing vs w0–wa as the late model, data set, and whether EDE is judged by its own Δχ² or by its gain on top of late DE. No rule or verdict changes |
+| 3 | arXiv:2604.13535 (multi-field EDE relaxes NPIPE limits); a PRD "phantom mirage" (axion DE just below the Hubble mass mimics phantom) | Context; the phantom-mirage paper is relevant to the Late Twist's m ~ H0. Find its arXiv number before citing |
+| 4 | Nothing new (Wang & Piao already cited; Turyshev review 2602.05368 is context) | Dive closed |
+
+**Citations to add (in addition to the earlier list):** arXiv:2604.08530 (required), 2604.13535, and the phantom-mirage
+paper.

@@ -22,7 +22,7 @@ third-party data; the public likelihoods and codes it uses are listed in `REPROD
 - **Nobody can buy it or hold exclusive rights to it:** the author pledges never to sell them.
 - The science itself (ideas and facts) stays free for everyone to read, cite and build on.
 
-**Licence:** Hippocratic License 3.0 (HL3-MIL-SV), in `LICENSE`, plus the addendum above. Everything here (code, data and
+**Licence:** "HL3-MIL-SV with additional terms": the Hippocratic License 3.0 in `LICENSE` plus the addendum above. Everything here (code, data and
 text) is free for
 anyone to use, share and build on, for any purpose that respects human rights. Military and mass-surveillance uses are
 excluded. Please cite with `CITATION.cff`.

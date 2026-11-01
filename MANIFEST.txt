@@ -4,9 +4,9 @@ afe9a78e8049a8ad32d93db0383ed7f450c5e63f0a136d8c9f4d997112b176f6        1193  CI
 73b9b414c592a312ab5dcc551f0762b301583bee670a3000f73e6fe953705ae9        4703  CLAIMS_INDEX.md
 fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JOURNEY.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
-5b2e8e679670c4c88d72e22961bbc0be2b6dbbfe6dcc61ca04936b624b641ec0        4208  LICENSE-ADDENDUM.md
-7151ec48193b1907bb3905156c9f74118cecd620742fa5fa1f65759a1ba6fb9f       11977  LOCK_TIMES.md
-222eeb8bd54a07f9118f068fb4e273993d658a5a476fa274d4474e2dccdb9573       11954  README.md
+56f4d1b60dcb149ba47d936025bb2021f781c2afd20bfa7a1345b9c1b84ba492        4369  LICENSE-ADDENDUM.md
+cc6f5b5d353893708fffc41ffb15c3c2cd86b3190e5114b7ba551dae79d4868b       12040  LOCK_TIMES.md
+e72ccb09fc7291f424df3660c98b311fb0ea87450ef9d404b2fc877db1eea80b       11979  README.md
 13638be1bce24a59e48ee057218612ccf5ade957b62e328d78b7ca81ef53fc13        2111  REPRODUCE.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
 427c6b0f119ded13baf525639cc65a5463df51201deee609dfb9dc5f01fb3890        8110  code/analysis/auto_judge.py
@@ -16,7 +16,7 @@ ce91088456ec458e3bd01d14d9bcb2dee0984b281aeaf909d9dcfd16a9f38f01        2403  co
 1311c865c33855b01917c86359fad559e0e9b8d92bbf857d1861b0e37df481bc        5367  code/analysis/house_check.py
 5e224b1d444f68e50a18d7ea6b9340f1ce79a1f73010cc5bef532cdf79ddb21f        9124  code/analysis/lock_attractor.py
 8b80c4febaa537ead61b7961a237f976632466af88e3c97cd6cf8d9dd34cfa93        2676  code/analysis/look_elsewhere.py
-f8f8fe2ab6cae3c93dc4a0552c42c62beaad55a5b6a508b8926242d3286d3b0c       17143  code/analysis/rank_models.py
+f5c8b35b7ad3729f8ac899a1ec3bff117550e6a12a7bf079427af501b6c72019       18056  code/analysis/rank_models.py
 545aaeb7987b1b8fabd6eb11094d3dc5747af0179096a5368fca4272403ca15b        2553  code/analysis/step2_potential.py
 f2607889522a352c9b2dec1b9f326e0cba7bb9728c4789ef8c92b8b24c84b2f2        3871  code/analysis/step3b_trigger.py
 24a41e2e79d3a90c028696979bbde95e5ccbcf34672b2cfeaa214d3fd1fd9a7e         744  code/axiclass/claim_running.sh
@@ -67,6 +67,7 @@ f5dc4dfc0689c8ede69ff2eb782d974aeb42578cf64653099ddcaccfa301428a        1353  fi
 4f95d3aa7be3a7a03b00ff75db2cc2478538f15dc3a286155998ed71a7604e3c        1245  fit_results/cmp_ax_spa_latetwist.json
 1702d777acc3c37392086140a0deca43e61a1e634e3d8d43020b7a4e3386986e        1245  fit_results/cmp_ax_spa_latetwist.stalled1.json
 bc9fae3e1f888d6e84ae8d38bd7c9864a2c0cf76c1917af6114c709b3f8e9bf4        1201  fit_results/cmp_ax_spa_latetwist_gF-0.2m0.4.json
+9cf6f27bcde54464697abbf956d9ab5866ee9aefbdbb4111f0b81d857083f3b4        1200  fit_results/cmp_ax_spa_latetwist_gF-0.2m0.4_desy5.json
 7d80b6cc66ad3dd4dd248b76c0cd5328191b523598878ec5ed835bcb23837c72        1202  fit_results/cmp_ax_spa_latetwist_gF0.2m0.2.json
 d5ea988a6dce8caaeb533d46c10e1f49a8f57b416713c26078c07860e177b480        1198  fit_results/cmp_ax_spa_latetwist_gF0.2m0.4.json
 34d0ed37e388cffe81a9fd01b999fa6bf521039b26f8d3ddf272b7210b9b643d        1196  fit_results/cmp_ax_spa_latetwist_gF0.2m0.json
@@ -275,7 +276,7 @@ eb9a1895c4347c11c9ff2f62d72458d92c67840fc30d852879e6b240507c9bb3        2138  pr
 e24a00cb9ec375b352e07b46ecfe004f069f5db17bca6aa583db2f271d3714df        4391  results_notes/COMBINED_CMB_RESULTS.md
 5978bd3c91068cc89c570f29cd684790aacff1fe876e7a792d353e103377c34e        1958  results_notes/COUPLED_TWIST_GATES.md
 189824656bcb6b164e727fea105dc86232a4e4af149b3878c62bfbc4d9efbf3a        5480  results_notes/COUPLED_TWIST_NOTES.md
-0f0e3002c9d5d82abb9882a42d7f46022265a8cacaf39226170ac1a6ef6dccfe       15016  results_notes/DEEP_DIVE_HINTS_2026-11-01.md
+bd4c4b193e8508d0212a8ca9bb47acdbec9eb00402c718e40265f5a8929f153a       16740  results_notes/DEEP_DIVE_HINTS_2026-11-01.md
 57bb0d62d4f753e697d199cb0a18c27582ed17b8bb0437eaeca35b5c04d3eaad        6785  results_notes/DEEP_REVIEW_2026-11-01.md
 8fa78050927641ebfe59be15a746b1ac7925c2361be808046de8edf2eb00f0e3        4559  results_notes/DEEP_REVIEW_2026-11-01b.md
 9ab8fb00dab2355a3cdb2e6277bb4703de1252e5f3cc322e3e4df2be0afa2e22        4312  results_notes/DOUBLE_CHECK_2026-11-01.md
@@ -287,13 +288,13 @@ e4535ff361a9d569f118221b4d6d5dec0427bcda88d8cef9a9625948568c02dd       10809  re
 8871d61f26e6015bc782778e8bfa47e8acbba3828a9984628e5944cc4a2fcfcb        3409  results_notes/LOCK_ATTRACTOR_RESULTS.md
 c84ca0d45574ebcc0b353b4130370ec5d2f8dc54a28d5541c2579e102383b130        1205  results_notes/LOOK_ELSEWHERE_RESULTS.json
 fffa1a21d3720540676705e443c2f9a371acdde2c294b5e592aec4ed8aab56fa        1691  results_notes/LOOK_ELSEWHERE_RESULTS.md
-c205d5ba1a08b439fbf68176ba0b49da13e95593f0308782c57eae6e94430e14        4809  results_notes/MODEL_RANKING.md
+ffb6c57397ef2a82f2f7b6617fb3dd4ab2929cf87389faec78b3e58b79ba8dcf        4773  results_notes/MODEL_RANKING.md
 3354a9f3f97554439b116303784006d74b6ed85b67b94c32a7dbbf40ea3ac18e        3104  results_notes/PAPER_SCOREBOARD_DRAFT.md
 cae32c9d8b846aa6917cbe400179098e255325c0436ae387a2005b227c713b66        5574  results_notes/PHONE_SUMMARY.md
 39e1ba35b5c9007087a2391a4eb79e99d7d966dd25c869e6407a4d018cf6ca0f        2218  results_notes/PROFILE_F_RESULTS.md
 a408f4234b8583007b06cfb793b2434494d69a633032a8dc80faac7d0353c1f9        3285  results_notes/ROBUSTNESS_RESULTS.md
 b76245dc1d9c98d0089aefb9bd0e7400ec8525c3d839081d3e3682bea72e7422        6957  results_notes/ROUTE.md
-68acf3199f8c64d7c20f377dcc79255d9da46df424e1c5b45a98c78fb37a6ecc       14042  results_notes/SCALES_CHECKPOINT.md
+f1cc64a5570972002d4267089919f1fbacdaf95dd9bba0c131b49a93de23c975       14559  results_notes/SCALES_CHECKPOINT.md
 f069ee1e56f27875dff96e1f584970a740354cf672974a4ec1649dcd36ca1090        7584  results_notes/SPT3G_RESULTS.md
 f93c3da48f9e1342a50366d21eaf132fb00ca0421ee3add420ee918ea235d706        5149  results_notes/STEP2_RESULT.md
 1e83bd2c8a6af63aa8371a7a514d84accfdf07637c56b190225e8f2508ea5c46        3884  results_notes/STEP3B_RESULT.md
