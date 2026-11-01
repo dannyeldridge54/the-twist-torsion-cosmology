@@ -1,6 +1,6 @@
 The Twist repository (working copy, not published). SHA-256 of every file.
 
-cdbcbb378ce9b16459bbcee4d006b2fa5998a38f659c12185bc63f88d9dce4ca         727  CITATION.cff
+ff74df2b40d5a123ae7aabf1ad2c7f27cba5374d076c31901223895bae1068e8         781  CITATION.cff
 73b9b414c592a312ab5dcc551f0762b301583bee670a3000f73e6fe953705ae9        4703  CLAIMS_INDEX.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
 dc5fc876f161b2caf7eff53bc6a8aec4e2f1c78276b42865d1552dc60a93eab7       11198  LOCK_TIMES.md
