@@ -58,3 +58,23 @@ with the sign of β φ̇", the physical content V4 intends. This is logged as a 
   - Cite it in the paper as the closest prior art for the Coupled Twist.
   - Report our C2 (D_c) beside their "−10 vs −3.9" pattern.
   - No rule changes.
+
+## Prior art found in the 2026-11-01 15:05 review: Babu & Amendola, arXiv:2610.23497 (16 Oct 2026). Cite; the closest match yet
+
+- **What they did:** coupled thawing quintessence with **a cosine potential** (our n = 1 shape) and a double-exponential
+  hilltop, fitted to DESI DR2 BAO + Planck PR4 + three SN compilations.
+- **What they found:**
+  - Δχ² = 5–15 against ΛCDM, recovering 64–92% of the w0–wa improvement;
+  - **|β| < 0.073 (95%)**, with a bimodal posterior near ±0.05;
+  - only the negative mode gives the apparent phantom crossing (near z ≈ 1), and it is preferred;
+  - "favoured but not yet required".
+- **For us:**
+  - **C5 (β = 0.816) is about 11× their bound**, which supports the pre-registered expectation EXCLUDED;
+  - our C1–C4 prior (β in ±0.15) brackets their modes;
+  - C4 (phantom crossing) can be compared directly with their sign result.
+- The coupling form is not given on the abstract page; check it in the PDF (theirs may be conformal, like ours).
+- **Novelty, said honestly:** the coupled cosine model itself is published. What we add is the torsion motivation,
+  the pre-registration, ACT DR6 + SPT-3G in the CMB, and the Dovekie and DES Y5 brackets.
+- They cite a prior study reporting 3–5σ coupling evidence (cosine-like, ACT + SPT-3G + DES-Dovekie) that their
+  results disagree with. Find it in their bibliography before writing COUPLED_TWIST_RESULTS.md.
+- **No rule changes.**

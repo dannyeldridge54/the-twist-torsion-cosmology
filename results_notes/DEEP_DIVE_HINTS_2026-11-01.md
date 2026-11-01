@@ -171,3 +171,30 @@ better starting points is needed before the Late Twist counts as tested; it need
 - The B0 fix should pass halofit a non-field Ω_m **and** the field's own w(z), not w_fld = −1.
 
 **Claim changes:** none. **New candidate step:** H2 (high-mass corner), which is up to the user.
+
+## Review 2026-11-01 15:05: local + web
+
+**Local:**
+- 5 runners alive, 8 fits running.
+- No non-penalty errors in the last 3 hours.
+- LD and HC are waiting by design.
+- House check: 0 hits.
+
+**Checked: the early (EDE) results are not affected by the B0 bugs.**
+- The forced δ_m flag applies only when n_axion = 1; the Locked Twist uses n = 3.
+- The Ω_m inflation scales with Ω_scf at late times, which is negligible for EDE.
+- So only the Late Twist and Coupled Twist (n = 1) carry the artefact, as already noted everywhere.
+
+**Web:**
+- **Coupled Twist prior art:** Babu & Amendola, arXiv:2610.23497; see COUPLED_TWIST_NOTES.md.
+- **Birefringence (for B4):**
+  - ACT DR6 + WMAP/Planck: β = 0.264° ± 0.058° (or 0.231° ± 0.059°, depending on the analysis);
+  - ACT DR6 alone: about 0.215° ± 0.074° (from a blog; unconfirmed);
+  - Planck/WMAP: 0.342° (+0.094 / −0.091);
+  - joint ACT + Planck: arXiv:2608.06480;
+  - SPT-3G constrains only *anisotropic* birefringence (A_CB < 1.2×10⁻⁴).
+  - B4's target window "0.20–0.34°" still holds. Use the joint value when locking B4.
+- **Dovekie:** the newest analyses rate thawing as weak-to-moderate evidence with DES-Dovekie, consistent with
+  expectation H3 (LD likely WEAKENED or NOT CONFIRMED).
+- **The bug:** not reported anywhere public (AxiCLASS has no issue on `include_scf_in_delta_m`), so our finding is
+  new. Reporting it is drafted and on hold.
