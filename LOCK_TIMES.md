@@ -52,6 +52,7 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0.4m0.2.json | 376e263 2026-11-01 13:07:10 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.2_desy5.json | 74fd79b 2026-11-01 14:13:16 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.4.json | 376e263 2026-11-01 13:07:10 -0600 |
+| cmp_ax_spa_latetwist_gF0.4m0.4_desy5.json | f859b4f 2026-11-01 14:54:13 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.json | e2108b5 2026-11-01 11:57:14 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0_desy5.json | 43fd066 2026-11-01 14:19:37 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m-0.3.json | 376e263 2026-11-01 13:07:10 -0600 |
@@ -177,6 +178,8 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | engine_check.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | null_mirror_latetwist.json | ca79060 2026-11-01 12:42:16 -0600 |
 | null_mirror_nl.json | 395db64 2026-11-01 13:06:57 -0600 |
+| null_mirror_nlfix.json | f859b4f 2026-11-01 14:54:13 -0600 |
+| null_mirror_nlfix_deltam_only.json | f859b4f 2026-11-01 14:54:13 -0600 |
 | validate.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | width_edelockP.json | 6867c0c 2026-10-31 13:28:10 -0500 |
 | width_edelockP_F9.json | 6867c0c 2026-10-31 13:28:10 -0500 |

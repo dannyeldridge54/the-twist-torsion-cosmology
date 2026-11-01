@@ -4,7 +4,7 @@ afe9a78e8049a8ad32d93db0383ed7f450c5e63f0a136d8c9f4d997112b176f6        1193  CI
 73b9b414c592a312ab5dcc551f0762b301583bee670a3000f73e6fe953705ae9        4703  CLAIMS_INDEX.md
 fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JOURNEY.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
-f751a7416088e8f177d80c3d3da7109a7be78fd22c0925e90f210929fbd936b7       11595  LOCK_TIMES.md
+9781d22bb6bab97c217a39f37b4ea238d134ab3b2a1d11d70680e4eaffcdfb1f       11815  LOCK_TIMES.md
 77ea2f4bf55e559f7a5047667d4f1e191eff4e4dd34e2322d8f1a86474338508       11330  README.md
 13638be1bce24a59e48ee057218612ccf5ade957b62e328d78b7ca81ef53fc13        2111  REPRODUCE.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
@@ -70,6 +70,7 @@ d5ea988a6dce8caaeb533d46c10e1f49a8f57b416713c26078c07860e177b480        1198  fi
 91a9788abd5081deacf87ac352d360582ed7b32bb8f136694afad8480737e700        1196  fit_results/cmp_ax_spa_latetwist_gF0.4m0.2.json
 5d9272613add7a96207edec93ab154e303be261a45d9f11e929f9c68e78fc42f        1197  fit_results/cmp_ax_spa_latetwist_gF0.4m0.2_desy5.json
 c2400dc315910980c993ccb7df3488accc1b51e2961e8d3523a4e1bdcc179838        1199  fit_results/cmp_ax_spa_latetwist_gF0.4m0.4.json
+fb95e5c0569fbba021d3c368f9115b8de956fcbe14c07f444e9a1dd6bcc93ed0        1197  fit_results/cmp_ax_spa_latetwist_gF0.4m0.4_desy5.json
 2595d15ebe974fbba3e85d8b72378b20e024d97cbcd5e6a8678e3d2e9f7cb211        1201  fit_results/cmp_ax_spa_latetwist_gF0.4m0.json
 975f916ae61aae75a4c19f3465b9f24dbaad8fab27c909851178209774208252        1201  fit_results/cmp_ax_spa_latetwist_gF0.4m0_desy5.json
 051f59f29fa439ae775c5d45f62cdbd50cf85753bccaa6057712eaefae400c35        1200  fit_results/cmp_ax_spa_latetwist_gF0.5m-0.3.json
@@ -195,6 +196,8 @@ f03cd0e0b0c55068cb5ba2713152b310428b80f4c315b2836da50aef4cecaf3e         207  fi
 18319b7f86701a5fd9b8023d3acd5734664d90c542d8d0fed1cb86a771a881b9        4082  fit_results/engine_check.json
 bc323ded0d758471041eca1112a308e9d23a57be76b4487844753f5efb7fd475         561  fit_results/null_mirror_latetwist.json
 b3f1b746fa92cf64bf6291d8c3fd2a8f95caa91cfa325cd07af90847b2fcd346         799  fit_results/null_mirror_nl.json
+55f39ab4cbbd67f0d6c559ba98045f86b8fc73501a66968c53bf72b53da8edc4         436  fit_results/null_mirror_nlfix.json
+7bbe184cd3c4ca58e968979f9bbf47b58fc1f9c15d1b5787fe81a39d6bd52277         438  fit_results/null_mirror_nlfix_deltam_only.json
 6cb8dc9af0afd5b8bbd3952c083c426be35d86a9687473c95753539165acb59c         248  fit_results/validate.json
 2cf6ba8917e67748d879b945784410d892e009693c427e9c06dce88795120a56         192  fit_results/width_edelockP.json
 ad22138cec8353373b91e34dac44f79a55cf70e01bfe9b6aa807f4b1aa0c3810         197  fit_results/width_edelockP_F9.json
@@ -249,7 +252,7 @@ a57ac32067e119939b20bab00cd121c97fdefb8b2fed51fbaa2fda3851dfa236          96  pr
 9b2d6b3755e0b98fdc748cef92d5ff4efef50662965d22ee986085929f0b1f83          96  preregistrations/PREREGISTRATION_ROBUSTNESS.md.sha256
 e9f927fda4e7076a8e5bc06a2e14a126049c9787fd4f25e2a6ccacdb4e4d9175        2607  preregistrations/PREREGISTRATION_SHARED_F.md
 c0a355af4a4765672c6126d9e995372cb356bd9209acf35fa31558737a034782          94  preregistrations/PREREGISTRATION_SHARED_F.md.sha256
-76d086b67b99c4a793e427387b702a2793437cc864766ca432c5d11ef5eea97c       14594  preregistrations/PREREGISTRATION_SPT3G_DEVIATIONS.md
+3384898c17fbc0444543276595ef8df1ea1c138d5ff70c744a6eceeaaa8ef816       16904  preregistrations/PREREGISTRATION_SPT3G_DEVIATIONS.md
 c86f2b752b1a68f3b9db49489e12997b8d42d53ee6d0ce0b24c08afbc67376a2        4101  preregistrations/PREREGISTRATION_SPT3G_LETTERS.md
 877582acb66bc91f99770a992b82518fda319238b6c29fd3b73bb90c75eb28b2         100  preregistrations/PREREGISTRATION_SPT3G_LETTERS.sha256
 d948277e4c7ada79a771cbe5aa6619545294a92eb723764a28b6456f1e977c7c        3283  preregistrations/PREREGISTRATION_SPT3G_N9.md
@@ -270,7 +273,7 @@ e24a00cb9ec375b352e07b46ecfe004f069f5db17bca6aa583db2f271d3714df        4391  re
 8fa78050927641ebfe59be15a746b1ac7925c2361be808046de8edf2eb00f0e3        4559  results_notes/DEEP_REVIEW_2026-11-01b.md
 9ab8fb00dab2355a3cdb2e6277bb4703de1252e5f3cc322e3e4df2be0afa2e22        4312  results_notes/DOUBLE_CHECK_2026-11-01.md
 8794a3f588a54e9f26aa4ab03a51dd9fd5fb35bf7dc38e85808edf275c492c1c        2456  results_notes/EARLY_LATE_RESULTS.md
-93503fe44f43ab5705f188b98d100fa6a9408bed43f826225706483916fcc94d        4266  results_notes/LATE_TWIST_NULL_MIRROR.md
+e9fac9e97172f6c51f842f4433c5a7a84efff6e9a98c57bfeb05d2e3a92517c7        5936  results_notes/LATE_TWIST_NULL_MIRROR.md
 931d8721577aebcebac6e0879c006331259192b41b3514dff8696f9ac303e828        4872  results_notes/LATE_TWIST_RESULTS.md
 4fe67716305e14132a435dc3f477134fbd5ce6bc9509a402480edd4e9f7e3387        6779  results_notes/LOCK_ATTRACTOR_PHASE.json
 e4535ff361a9d569f118221b4d6d5dec0427bcda88d8cef9a9625948568c02dd       10809  results_notes/LOCK_ATTRACTOR_RESULTS.json
