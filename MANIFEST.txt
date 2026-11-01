@@ -1,12 +1,14 @@
 The Twist repository (working copy, not published). SHA-256 of every file.
 
+cdbcbb378ce9b16459bbcee4d006b2fa5998a38f659c12185bc63f88d9dce4ca         727  CITATION.cff
 73b9b414c592a312ab5dcc551f0762b301583bee670a3000f73e6fe953705ae9        4703  CLAIMS_INDEX.md
+7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
 dc5fc876f161b2caf7eff53bc6a8aec4e2f1c78276b42865d1552dc60a93eab7       11198  LOCK_TIMES.md
-4e462ddd22d94e2c73ee3a17b9c8c05238523c5c4532a76e5008a7925b01c321        5953  README.md
+fc0e197a3f495d8b932161a8240af4eec555e1466e2b6a760c82efefa2ab4f3d        6409  README.md
 13638be1bce24a59e48ee057218612ccf5ade957b62e328d78b7ca81ef53fc13        2111  REPRODUCE.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
 427c6b0f119ded13baf525639cc65a5463df51201deee609dfb9dc5f01fb3890        8110  code/analysis/auto_judge.py
-83a8e9c958c0defa758be96a3cd443b46491a1f6e9bb64d3aacf65ac516b56e6        6585  code/analysis/build_repository.py
+20bafbde43a5f9accd5f768ac3959cd44a70480176c27eb5d03e42a0a95a4a2a        6675  code/analysis/build_repository.py
 6f94442d3886269dde665eb7c0c759ed5f82a6758259f0c6317bd94b9d38f43f        5060  code/analysis/build_zenodo_v3.py
 ce91088456ec458e3bd01d14d9bcb2dee0984b281aeaf909d9dcfd16a9f38f01        2403  code/analysis/fix_mojibake.py
 1311c865c33855b01917c86359fad559e0e9b8d92bbf857d1861b0e37df481bc        5367  code/analysis/house_check.py

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use or discuss this work, please cite it as below.
+title: 'The Twist: a pre-registered test of a torsion-motivated scalar field in early and late roles'
+authors:
+  - family-names: Eldridge
+    given-names: Danny Lee
+version: "3-working"
+date-released: 2026-11-01
+url: https://github.com/dannyeldridge54/The-Twist
+repository-code: https://github.com/dannyeldridge54/The-Twist
+license-url: https://github.com/dannyeldridge54/The-Twist/blob/main/LICENSE
+references:
+  - type: generic
+    title: 'Torsion-Born Early Dark Energy with an Onset Locked to Matter-Radiation Equality (UFE v2)'
+    authors:
+      - family-names: Eldridge
+        given-names: Danny Lee
+    doi: 10.5281/zenodo.23847152

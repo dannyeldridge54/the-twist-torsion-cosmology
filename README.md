@@ -9,9 +9,14 @@ This repository holds the whole programme in one place: the idea, every rule wri
 result, the code that produced them, the honest verdicts (including every loss), and the paper. Nothing in it is
 third-party data; the public likelihoods and codes it uses are listed in `REPRODUCE.md`.
 
-**Status:** some fits are still running tonight. Rows marked *pending* in `CLAIMS_INDEX.md` are filled in when they
-finish, and this package is rebuilt. It has **not been published**. Publishing (Zenodo, arXiv) is the author's
-decision.
+**Status:** this is a **public working copy**, shared openly while some fits are still running.
+- Rows marked *pending* in `CLAIMS_INDEX.md` are filled in when they finish, and the repository is updated.
+- Making the pre-registrations public before those results exist is deliberate: anyone can see the rules came first.
+- A versioned archive (Zenodo) and a preprint (arXiv) will follow when the results are final.
+
+**Licence:** Hippocratic License 3.0 (HL3-MIL-SV), in `LICENSE`. Everything here (code, data and text) is free for
+anyone to use, share and build on, for any purpose that respects human rights. Military and mass-surveillance uses are
+excluded. Please cite with `CITATION.cff`.
 
 ---
 
