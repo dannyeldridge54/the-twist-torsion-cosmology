@@ -44,8 +44,9 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist.json | cea6ef3 2026-11-01 07:45:00 -0600 |
 | cmp_ax_spa_latetwist.stalled1.json | cea6ef3 2026-11-01 07:45:00 -0600 |
 | cmp_ax_spa_latetwist_gF-0.2m0.4.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
-| cmp_ax_spa_latetwist_gF-0.2m0.4_desy5.json | not committed |
+| cmp_ax_spa_latetwist_gF-0.2m0.4_desy5.json | 25a2ff8 2026-11-01 15:24:17 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.2.json | b0eaf72 2026-11-01 11:41:33 -0600 |
+| cmp_ax_spa_latetwist_gF0.2m0.2_desy5.json | 83ee1a3 2026-11-01 15:36:16 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.4.json | d80acb1 2026-11-01 12:16:03 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m-0.3.json | b0eaf72 2026-11-01 11:41:33 -0600 |
