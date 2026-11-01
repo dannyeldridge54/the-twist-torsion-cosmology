@@ -167,7 +167,14 @@ open science · reproducible research · null results · Gaia · fractal dimensi
 - Zenodo: Silver 10.5281/zenodo.23839507
 - Zenodo: UFE v2 paper 10.5281/zenodo.23847152
 
-## 11. Thanks
+## 11. Contact
+
+Danny Lee Eldridge · **dannyeldridge54@gmail.com**
+
+Questions, corrections, replication attempts and collaboration are all welcome. You can also open an issue on this
+repository. If you find an error, please say so: every correction is logged and credited.
+
+## 12. Thanks
 
 To everyone whose public data and open codes made this possible: Planck, ACT, SPT-3G, DESI, Pantheon+, DES, CAMB,
 CLASS and AxiCLASS, Cobaya. And to everyone who came before.

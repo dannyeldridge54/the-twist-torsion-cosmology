@@ -60,13 +60,13 @@ Data: Planck low-ℓ + ACT DR6 + ACT×Planck lensing + SPT-3G D1 lite + DESI DR2
 - **HC** (high-mass corner): pending (runs after LD); no finite point at the end = NOT REACHABLE
 - **Null mirror:** the Late Twist code sits about +1.35 above ΛCDM in its frozen (Λ) limit (LATE_TWIST_NULL_MIRROR.md; cause confirmed 13:06: halofit reads an Ω_m inflated by the field, and the offset is +0.03 without halofit). Comparisons with Λ-based references carry this offset; the verdicts above are as written.
 - **LEE-G, Pantheon+:** Δχ²_loc = +0.96 → **NOT SIGNIFICANT**
-- **LEE-G, DES Y5:** Δχ²_loc = -5.32, N_eff = 1 F values; Z_loc 1.81σ → Z_glob 1.81σ → **WEAK HINT**  (grid incomplete)
+- **LEE-G, DES Y5:** Δχ²_loc = -5.32, N_eff = 2 F values; Z_loc 1.81σ → Z_glob 1.49σ → **WEAK HINT**  (grid incomplete)
 - **LD** (Late Twist on DES-Dovekie): pending (runs after the edge scan)
 
 ## Grid status (deviation 08:58: lowest grid χ² is the fit; resolution 0.2 dex)
 
-- ax_spa_latetwist: 12 grid point(s) finished; best = ax_spa_latetwist_gF0.5m-0.3 (χ² 2403.22)  ← verdicts are final only when the grid is complete
-- ax_spa_latetwist_desy5: 4 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)  ← verdicts are final only when the grid is complete
+- ax_spa_latetwist: 14 grid point(s) finished; best = ax_spa_latetwist_gF0.5m-0.3 (χ² 2403.22)  ← verdicts are final only when the grid is complete
+- ax_spa_latetwist_desy5: 7 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)  ← verdicts are final only when the grid is complete
 
 ## 4. Filter rule (how the headline is chosen)
 
