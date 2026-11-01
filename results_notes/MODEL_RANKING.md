@@ -66,7 +66,7 @@ Data: Planck low-ℓ + ACT DR6 + ACT×Planck lensing + SPT-3G D1 lite + DESI DR2
 ## Grid status (deviation 08:58: lowest grid χ² is the fit; resolution 0.2 dex)
 
 - ax_spa_latetwist: 14 grid point(s) finished; best = ax_spa_latetwist_gF0.5m-0.3 (χ² 2403.22)  ← verdicts are final only when the grid is complete
-- ax_spa_latetwist_desy5: 9 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)  ← verdicts are final only when the grid is complete
+- ax_spa_latetwist_desy5: 10 grid point(s) finished; best = ax_spa_latetwist_gF0.5m0_desy5 (χ² 2640.69)  ← verdicts are final only when the grid is complete
 
 ## 4. Filter rule (how the headline is chosen)
 

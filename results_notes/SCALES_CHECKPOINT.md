@@ -22,14 +22,18 @@ time at every major intersection; make sure your house is kept well."
 2. Fix every FAIL line (commit, rebuild, record), then run it again.
 3. **Level means HITS: 0.** If pass 3 still has hits, stop and report them to Danny instead of forcing them.
 
-**Online pan, up to 3 rounds:**
+**Online pan, a deep dive until a round has no new hits (added 1 Nov 2026 at Danny's request: "add deep dive to
+scales check"):**
 1. Each round, search for anything new since the last checkpoint that bears on the result just landed:
    - new papers on the same model or data;
    - new data releases (DESI, ACT, SPT, Simons Observatory, SH0ES, CCHP);
    - verification of any citation added since the last checkpoint.
-2. **A hit is something that would change a claim, a number or a required citation.** Papers that are only interesting
-   go into the hints file, not the paper.
-3. Stop after a round with no hits, or after 3 rounds; report what is left.
+2. **Each round follows up on the previous round's leads.** Read the abstract or primary source of anything
+   claim-relevant; do not rely on search snippets.
+3. **A hit is something that would change a claim, a number or a required citation.** Papers that are only interesting
+   go into DEEP_DIVE_HINTS_*.md, not the paper.
+4. **Stop only after a round with no new hits** (normally 3–5 rounds; at most 6, then report what is still open).
+5. Log every round in the hints file as a table (round, found, use), plus the citations to add.
 
 **Then:** commit, and send Danny a short line with local hits fixed, online hits found, and level or not.
 

@@ -63,6 +63,7 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0.5m0.4_desy5.json | 0ffdb44 2026-11-01 13:20:24 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0.json | 376e263 2026-11-01 13:07:10 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0_desy5.json | 0ffdb44 2026-11-01 13:20:24 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.057_desy5.json | 5bbdd2e 2026-11-01 15:12:41 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2.json | 075ab6b 2026-11-01 10:46:07 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2_desy5.json | 93083be 2026-11-01 14:58:34 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.4.json | 3c89c3a 2026-11-01 11:18:11 -0600 |

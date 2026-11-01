@@ -1,7 +1,7 @@
 # The Twist: a pre-registered test of a torsion-motivated scalar field
 
 **Author:** Danny Lee Eldridge · **Version:** 3 (working copy, 1 November 2026) · **Licence:** Hippocratic License 3.0
-(HL3-MIL-SV, see `licence/`)
+(HL3-MIL-SV) + the "for people, not major corporations" addendum (`LICENSE`, `LICENSE-ADDENDUM.md`)
 
 > *Offered freely to everyone, especially the people who will build the technologies and crafts to come.*
 
@@ -14,7 +14,16 @@ third-party data; the public likelihoods and codes it uses are listed in `REPROD
 - Making the pre-registrations public before those results exist is deliberate: anyone can see the rules came first.
 - A versioned archive (Zenodo) and a preprint (arXiv) will follow when the results are final.
 
-**Licence:** Hippocratic License 3.0 (HL3-MIL-SV), in `LICENSE`. Everything here (code, data and text) is free for
+**For people, not major corporations (`LICENSE-ADDENDUM.md`):**
+- People, students, researchers, universities, non-profits and small and mid-sized businesses may use it, with any AI
+  tools they like.
+- **Major corporations (250+ people or US$50M+ a year) get no commercial rights.**
+- **Large AI companies may not train or sell AI on it.**
+- **Nobody can buy it or hold exclusive rights to it:** the author pledges never to sell them.
+- The science itself (ideas and facts) stays free for everyone to read, cite and build on.
+
+**Licence:** Hippocratic License 3.0 (HL3-MIL-SV), in `LICENSE`, plus the addendum above. Everything here (code, data and
+text) is free for
 anyone to use, share and build on, for any purpose that respects human rights. Military and mass-surveillance uses are
 excluded. Please cite with `CITATION.cff`.
 
