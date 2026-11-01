@@ -237,3 +237,9 @@ paper.
 | 1 | Bhattacharya, Borghetto, Malhotra, Parameswaran, Tasinato & Zavala, arXiv:2410.21243 (JCAP 04 (2025) 086): axion hilltop quintessence vs CMB + LSS + SNe. A search snippet says Pantheon+ prefers f ≳ 1 (f > 0.946) and DES Y5 gives 0.88 (+0.24 / −0.54) | **Consistent with our grid** (the Pantheon+ best sits at the top F edge). Candidate citation; the numbers are from a snippet, so verify them in the PDF before quoting |
 | 1 | Payeur, McDonough & Brandenberger, arXiv:2411.13637: the evidence for thawing quintessence disappears with physically motivated priors; also arXiv:2408.17318, "Scant evidence for thawing quintessence" | Context for the L1/LEE-G reading (weak hints); candidate citations |
 | 2 | The abstract of 2410.21243 gives no DESI, f or Δχ² numbers | No claim change; dive closed |
+
+## Hourly loop dive (2026-11-01 16:36): 1 round, no claim-relevant hits
+
+| Round | Found | Use |
+|---|---|---|
+| 1 | Coupled quintessence with DESI DR2: arXiv:2509.15091 (momentum coupling), 2509.09624 (coupled with warm DM), 2411.11177 (prefers non-interacting), 2503.10806 (pre-DR2 hint) | Context for C1/C2; none uses our conformal + cosine combination beyond Babu & Amendola (already logged). Dive closed |

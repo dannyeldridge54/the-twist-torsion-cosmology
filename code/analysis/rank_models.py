@@ -72,6 +72,26 @@ def grid_accounted(name):
     return done
 
 
+EDGE_PTS = ("gF0m0.057", "gF0m0.102", "gF0.2m-0.143", "gF0.2m-0.098", "gF0.4m-0.343", "gF0.4m-0.298", "gF0.5m-0.443",
+            "gF0.5m-0.398")                       # PREREGISTRATION_EDGE_SCAN.md (locked 12:34:01)
+
+
+def official_complete(name):
+    """Pantheon+: the 24 grid points. DES Y5: the 24 grid points plus the 8 edge points (locked blind)."""
+    if grid_accounted(name) < 24:
+        return False
+    if not name.endswith("_desy5"):
+        return True
+    base = name[:-len("_desy5")]
+    for p in EDGE_PTS:
+        n = f"{base}_{p}_desy5"
+        log = os.path.join(RES, "lanes", f"{n}.log")
+        if not (os.path.exists(os.path.join(RES, f"cmp_{n}.json")) or (os.path.exists(log) and any(
+                s in open(log, errors="ignore").read() for s in ("-100000", "Cannot reproduce log minimum")))):
+            return False
+    return True
+
+
 def load(name):
     if "_gF" not in name:
         rows = grid_files(name)
@@ -112,7 +132,7 @@ def lee_and_ld():
         zl, zg = z(p_loc), z(p_glob)
         v = "HOLDS" if zg >= 2 else "WEAK HINT" if zg >= 1 else "NOT SIGNIFICANT"
         L.append(f"- **LEE-G, {label}:** Δχ²_loc = {fmt(d)}, N_eff = {n_eff} F values; Z_loc {zl:.2f}σ → "
-                 f"Z_glob {zg:.2f}σ → **{v}**" + ("  (grid incomplete)" if grid_accounted(name) < 24 else ""))
+                 f"Z_glob {zg:.2f}σ → **{v}**" + ("  (official fit incomplete)" if not official_complete(name) else ""))
     ld_ref = chi2("ax_spa_lcdm_halofit_dovekie")
     import glob as _g
     pts = [(json.load(open(p))["minimum"]["chi2"], os.path.basename(p)[4:-5])
@@ -336,7 +356,7 @@ def main():
             m = load(k)
             L.append(f"- {k}: {v} grid point(s) finished; best = {m.get('grid_run')} (χ² {m['chi2']:.2f})"
                      + ("  ← verdicts are final only when the grid is complete"
-                        if ("latetwist" in k and grid_accounted(k) < 24)
+                        if ("latetwist" in k and not official_complete(k))
                         or ("coupledtwist" in k and "_beta" not in k and v < 9) else ""))
         L.append("")
     L += ["## 4. Filter rule (how the headline is chosen)", "",

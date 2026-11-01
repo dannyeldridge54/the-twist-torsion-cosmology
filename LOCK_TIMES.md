@@ -45,10 +45,14 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist.stalled1.json | cea6ef3 2026-11-01 07:45:00 -0600 |
 | cmp_ax_spa_latetwist_gF-0.2m0.4.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
 | cmp_ax_spa_latetwist_gF-0.2m0.4_desy5.json | 25a2ff8 2026-11-01 15:24:17 -0600 |
+| cmp_ax_spa_latetwist_gF0.2m-0.098_desy5.json | c798973 2026-11-01 16:36:15 -0600 |
+| cmp_ax_spa_latetwist_gF0.2m-0.143_desy5.json | c798973 2026-11-01 16:36:15 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.2.json | b0eaf72 2026-11-01 11:41:33 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.2_desy5.json | 83ee1a3 2026-11-01 15:36:16 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.4.json | d80acb1 2026-11-01 12:16:03 -0600 |
+| cmp_ax_spa_latetwist_gF0.2m0.4_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_latetwist_gF0.2m0.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
+| cmp_ax_spa_latetwist_gF0.2m0_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m-0.3.json | b0eaf72 2026-11-01 11:41:33 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m-0.3_desy5.json | 43fd066 2026-11-01 14:19:37 -0600 |
 | cmp_ax_spa_latetwist_gF0.4m0.2.json | 376e263 2026-11-01 13:07:10 -0600 |
@@ -66,9 +70,11 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0.5m0.json | 376e263 2026-11-01 13:07:10 -0600 |
 | cmp_ax_spa_latetwist_gF0.5m0_desy5.json | 0ffdb44 2026-11-01 13:20:24 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.057_desy5.json | 5bbdd2e 2026-11-01 15:12:41 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.102_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2.json | 075ab6b 2026-11-01 10:46:07 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2_desy5.json | 93083be 2026-11-01 14:58:34 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.4.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.4_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_lcdm.json | 651a0cc 2026-11-01 07:55:05 -0600 |
 | cmp_ax_spa_lcdm_desy5.json | 9ffb2be 2026-11-01 08:42:25 -0600 |
 | cmp_ax_spa_lcdm_dovekie.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
