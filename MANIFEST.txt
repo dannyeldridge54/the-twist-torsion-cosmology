@@ -1,12 +1,12 @@
 The Twist repository (working copy, not published). SHA-256 of every file.
 
-afe9a78e8049a8ad32d93db0383ed7f450c5e63f0a136d8c9f4d997112b176f6        1193  CITATION.cff
+a2a7f917235608f06544c65a50fed1f48586cdbbc8e5b73a023ad3e97981827b        1193  CITATION.cff
 27235502df7192fd42a8bb9ee4f13c181a5eca95a840c90572af5d81401ff624        6975  CLAIMS_INDEX.md
 fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JOURNEY.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
 56f4d1b60dcb149ba47d936025bb2021f781c2afd20bfa7a1345b9c1b84ba492        4369  LICENSE-ADDENDUM.md
 5a00ca871cd5818f8f33889cf933b120f0b942f69df91faefc8169614e2a3059       22407  LOCK_TIMES.md
-7a5e0065b6bfd6b9d416c915e131d4516532e353e9c02344e0491bc0052dd3f7       13470  README.md
+301d3ab2a569eb1d707f1cf86662878fcb74b58f3ccd5940e560f0d40389fbd1       13585  README.md
 8e4dc000cd5a7db0f110e83b8466438e09d2b9256295efbeb4e4dfb127c6d66e        4630  REPRODUCE.md
 10067863bebbef53419a530dc3507284e140177619e262f3f521efcee64310a6        3141  REVIEWER_QUICK_CHECK.md
 4612f0bd21173046f219d3b6c9c2cc76aa01a52195625210c1c51d1f2d5e0c10        3620  code/analysis/audit_all.py
@@ -90,7 +90,7 @@ ae4cc5440b4282f743d783496a3963a0fadd503288867eff59d513a8434b36c8        2266  co
 0f1ed4936d73d8644eb71013bb4909fc149499c212d5d5401c7ae284284976bc        1546  code/axiclass/snapshot_env.sh
 5cdfe5a015f176e4f6cd9c20565570e0411226c4857cf8a5898eeff35a4d7add        3993  environment/environment.yml
 0b678224a0386f153a557d2edd497be25f22558dafa4bd9bd5522d57227c6d80        2000  environment/pip_freeze.txt
-1be994f6a83d1c1c28bcab45ec18bb08f840e98c27369c213d0bab4dbf81438f        3330  environment/setup_twist_env.sh
+cb3245f9bd5dd3c82396a72d09a7384e346453cefe2766e994d1ef4b70179801        3517  environment/setup_twist_env.sh
 ccd312cb90f5e10d45bf234d85ac6449daa5a98c0857321c5370b4b6601ad7d4         139  fit_results/N_PACT_LOCK.json
 296439677549597e68b39a4e688a8cc0e2e2db5503b03ddcbde12463c31d4604         149  fit_results/VERDICT_LOCK.json
 f9f98b31a02adb6625a8a41c33ebe1465c2158165309d419d2df70e0c4e9e68e         574  fit_results/b4_delta_theta.json
@@ -375,11 +375,11 @@ acf1941e179d4c46a36367c371a01e8f3325304be457588023526385365b9628      143294  hi
 15e35cdeaa930f16800c4f96696c94ef06f0e69a831b5f0b6b0b644ac83aba4c        5897  history_track/star_fractal.py
 dd1d514758fd3428266b2d2aadf5025f1908ced33fcb0c9d825142c5fa04fbbc      478587  history_track/welling_k7.png
 a376c37d15b0c04b202e5c9542c5c360ea772e0a7fc93dc809350b114325c707        5548  history_track/welling_k7.py
-0a7b005b0a7c4273c76d6103faa40d90c80e43677bea92ddfb870ff707b69f2d         475  licence/CITATION.cff
+9a177a152bc8daaab8f7d5e863711349b5022099681e91a77fb76c1a01c1c5a6         475  licence/CITATION.cff
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  licence/LICENSE
 07d1ef557aca6b33c2edb8e84da63fdd8ec2df73b98767419ec3907247f16499        2732  licence/PLEDGE.md
-136ff5de4a129ebcbebb9cca9d87ac83201c33d9ad3a11d931b01fcfb1b61f0f      255405  paper/torsion_born_ede.pdf
-3020f131178a78f3c1152f4a0d908c7d39ac138f3e91afa3a04ecce52d5a503d       97216  paper/torsion_born_ede.tex
+39652fb1f171031c18613cc46b79e070006ff5ffd718dabe78c0768ce32fbd88      255860  paper/torsion_born_ede.pdf
+0f8964baa31b2df4c14fed25da46d8c22925f87727be68fbe99afb472caca078       97304  paper/torsion_born_ede.tex
 9e714bad9bedb2d7257f662cdfafe6d04f982ad65bb27f25824cda6e46b8c06c        7167  preregistrations/PREREGISTRATION_B4X_PHOTON_COUPLING.md
 0e45375888d77dfcb3098e5f7813ceace8fe3717f313e82e5dfa784b8d0c7f58         105  preregistrations/PREREGISTRATION_B4X_PHOTON_COUPLING.md.sha256
 4a38898d2013a5978eaf0cbc94435cdd6c2ad1b44a2fdf3b8579fd657334490e        4048  preregistrations/PREREGISTRATION_B4_BIREFRINGENCE.md

@@ -203,6 +203,7 @@ open science · reproducible research · null results · Gaia · fractal dimensi
 
 ## 10. Earlier records
 
+- **Zenodo: version 3 (this work, final results) 10.5281/zenodo.23867116** (all versions: 10.5281/zenodo.23789829)
 - Zenodo: N = 9 prediction 10.5281/zenodo.23838969
 - Zenodo: Silver 10.5281/zenodo.23839507
 - Zenodo: UFE v2 paper 10.5281/zenodo.23847152
