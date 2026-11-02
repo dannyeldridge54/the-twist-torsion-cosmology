@@ -23,10 +23,11 @@ Every test run today, with its locked rule, its verdict and its files. *Pending*
 | IN: inflation from α = 1 | UFE_CHECKS (15:50:03) | n_s = 0.9667 at N = 60 vs 0.974 ± 0.003 (2.4σ); r = 0.003 | TENSION (as expected) | UFE_CHECKS_RESULTS.md |
 | ER: dilaton as the early field | UFE_CHECKS (15:50:03) | max Ω_χ(3500) = 0.025; G ×13 at BBN | TOO SMALL | UFE_CHECKS_RESULTS.md |
 | LQ: BI value today vs LQG | UFE_CHECKS (15:50:03) | γ = 0.259 (Pantheon+ fit), 0.68 (DES Y5 fit); Pantheon+ rebuild off by 0.087 | NO VERDICT (mirror failed) | UFE_CHECKS_RESULTS.md |
-| PC: pincer (CMB-only fits predict BAO + SNe) | PINCER (16:22:30) | *queued* (starts when the torsion-F runners finish) | | (to write) |
+| PC: pincer (CMB-only fits predict BAO + SNe) | PINCER (16:22:30) | started 17:11 (no longer waits for torsion-F) | *running* | (to write) |
 | Forward predictions (DESI DR3, w0–wa, phantom, S8, R, inflation r, GW parity) | PREDICTIONS_LOCKED (16:19:51) | frozen numbers in forward_predictions.json | scored when the data are public | PREDICTIONS_LOCKED_2026-11-02.md |
-| TF: F fixed at √(3/2) and √6 M_Pl | TORSION_F (14:51:28) | *pending* | | (to write) |
-| TF-P: F fixed at (4/π)√(3/2) M_Pl (derived) | TORSION_F_PLANCK (14:55:36) | *pending* | | (to write) |
+| TF: F fixed at √(3/2) and √6 M_Pl | TORSION_F (14:51:28) | **STOPPED at Danny's word, ~17:10** ("cut it and attack spiral"), about 60% through (restarts 2–3 of 4); no results written; claim files cleared so it can be rerun unchanged later | NO VERDICT yet (deviation, not a result) | — |
+| TF-P: F fixed at (4/π)√(3/2) M_Pl (derived) | TORSION_F_PLANCK (14:55:36) | **STOPPED** with TF (same note); the derived-F claim in the theory note stays untested | NO VERDICT yet | — |
+| SF: effective Spiral Twist fit | SPIRAL_FIT (17:01:01) | gate PASS (ΛCDM limit within 0.08); 3 fits started 17:11 | *running* | (to write) |
 
 ## Analyses (not pre-registered tests; no verdicts)
 

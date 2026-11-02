@@ -5,7 +5,7 @@ fff1b5ed038d0b56154d87344fc3d1faa92bde0e9a4e193b7f706a9a8c52ba01        9323  CL
 fbf5f9618a10633cb207e026ca361227eefaa1f1bcc073ae3d6fe3ee59d05692        4507  JOURNEY.md
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  LICENSE
 56f4d1b60dcb149ba47d936025bb2021f781c2afd20bfa7a1345b9c1b84ba492        4369  LICENSE-ADDENDUM.md
-9a6cc39d3ef47643394c9394c0416e9190159415fb9f33707b3b76821ce68fe0       23817  LOCK_TIMES.md
+ce83a709036d0dc901dad4c3c7840df415871c632b49e92fb45140dbc118c22d       23887  LOCK_TIMES.md
 e157f718039ef772b236c53ae51b3bdba0872370bf21dbdc8ca488b3d82e46e6       15229  README.md
 8e4dc000cd5a7db0f110e83b8466438e09d2b9256295efbeb4e4dfb127c6d66e        4630  REPRODUCE.md
 10067863bebbef53419a530dc3507284e140177619e262f3f521efcee64310a6        3141  REVIEWER_QUICK_CHECK.md
@@ -16,7 +16,7 @@ ed8493407144a742037f236e32c42a78e65e50e31e17195d2475ded2ad8df303        1947  co
 f626336a4f09d4b65baf4d68e55a990b24662bd1f743c291c40883faa69a70bc        2150  code/analysis/bi_kahler_lambda.py
 19ad5a5ff62653dc02ba1e542e38dff1ecd1eb0371448bf0bdb3f5e202fdbb2a        1747  code/analysis/bi_superpotential.py
 a06e0eb4290863f0ffc1ec99e026bba670106e27bf71184ab0a6e0d217fe6387        6981  code/analysis/build_repository.py
-d54d6023aa86d67499a8a1b6363baaff05ac12f06274436b562ab0ace051350a        7766  code/analysis/build_zenodo_v3.py
+c97d9acb394bda6438d81e6e3b3a40cef6ce14c9d9c9e956b082adde96d8a88f        7847  code/analysis/build_zenodo_v3.py
 689daaeadac244168683aefbbec9389976e27d7ad2e66c1010f8104d41657af4        4151  code/analysis/dataset_breakdown.py
 ce91088456ec458e3bd01d14d9bcb2dee0984b281aeaf909d9dcfd16a9f38f01        2403  code/analysis/fix_mojibake.py
 771771672aac52b9b985ae34e606677e7bf4bf0109af8d7046052ab9500920b4        3980  code/analysis/forward_predictions.py
@@ -100,10 +100,11 @@ cf1d86c190302ab135ff13f1581d15cd63eaadd2a6ae0254e738493328965283        1338  co
 849bbeff7082412984da5a22d0596e1982a2b21ad22293477fce5f30f992292d        1205  code/axiclass/run_hc.sh
 3d39ede5744c618cd113272eea0e5d307ecf576718abdf424d5b08e4720a2c2c        1368  code/axiclass/run_late_dovekie.sh
 bc5dbc17c794f7fc635e7b329cdff197129c008bfae8fdf347bc8d37445e8afb        1043  code/axiclass/run_late_twist.sh
-54bcb4937a4b0226aabfd0ca62f2a52c82e97248949c8764dbecdfd04cc7356a        1269  code/axiclass/run_pincer.sh
+72ce3fd50a3a02188d32f9d22af93240dc5474b0a2a93207b58aea128d42d77d        1290  code/axiclass/run_pincer.sh
 3ceeb32301f60e3176fc020e4fb44824d8db5628078edc57a09cf2f526e7d1a5        1346  code/axiclass/run_robustness.sh
 07f814139c0a500c6d85e9410e086d4463054e049f1aa85ab591830421c83dc6        1388  code/axiclass/run_robustness2.sh
 76ffd0ef657d55dd648349414fd5f4e63d2caa0fe54c0c62347f744fce834c39        1105  code/axiclass/run_robustness_ii.sh
+ae2ed742548f0610d2010a83507985a3d357a48df47ee5a384ec21c5b0f28892        1442  code/axiclass/run_spiral.sh
 b821736d94a8eaf1590639b2c856acc19c81e16218f6fd50ebfacc2de26c0e5d        1167  code/axiclass/run_torsion_f.sh
 250cf2e73690d875614f7282af2b8aa6a24905b3a31ea77fa6f3c4b062568d4c        1176  code/axiclass/run_torsion_f_planck.sh
 30bb1e14ed75fcd2d8b51ceee354daf47742547b4250d5d666e4ee5e55b73b31         855  code/axiclass/run_union3.sh
@@ -413,6 +414,9 @@ a376c37d15b0c04b202e5c9542c5c360ea772e0a7fc93dc809350b114325c707        5548  hi
 9a177a152bc8daaab8f7d5e863711349b5022099681e91a77fb76c1a01c1c5a6         475  licence/CITATION.cff
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  licence/LICENSE
 07d1ef557aca6b33c2edb8e84da63fdd8ec2df73b98767419ec3907247f16499        2732  licence/PLEDGE.md
+21cd7f12091a64050c1c9a0e718164fd2449abfd7178e579fa342e01baa97fff       95754  paper/spiral_twist_arxiv.pdf
+7b546397ed78340b0164cf13f541bdd0ce1f8c829345852b8e3147cf3c9bd7f0        5643  paper/spiral_twist_arxiv.tar.gz
+f47a5c5824dc1ccfcae960e186e74006436fa3372162db05e6b6d1a8e5d6f11e       11758  paper/spiral_twist_arxiv.tex
 e4a47d19512d71d6daab0c4c5306d0b003af532fbecd69ba78ace35d9214cfdb       85757  paper/spiral_twist_note.pdf
 90896db28b5a57b4392286c8330553a24394f710d24ffd141967e7c280cf842e       11058  paper/spiral_twist_note.tex
 d112c9f538cd047d701a9f339148e8308bd7acec0c7ab207aa3375eaf7351bd6       84142  paper/spiral_twist_note_v2.pdf
@@ -471,6 +475,8 @@ e9f927fda4e7076a8e5bc06a2e14a126049c9787fd4f25e2a6ccacdb4e4d9175        2607  pr
 c0a355af4a4765672c6126d9e995372cb356bd9209acf35fa31558737a034782          94  preregistrations/PREREGISTRATION_SHARED_F.md.sha256
 c6bebdf018b564f761ab1331ed9af5c6acf96bb2255449a5616f2e119d91c325        3564  preregistrations/PREREGISTRATION_SOLAR_LOWZ.md
 0235b91777e33c47f592d6bad580d84bef03b212bf13c4f50a07732fa8af55b1          96  preregistrations/PREREGISTRATION_SOLAR_LOWZ.md.sha256
+58574b44a903fb38b6c442b2ec9ad4d5385e28c36291982477b180fd1d52df88        2549  preregistrations/PREREGISTRATION_SPIRAL_FIT.md
+a4c6bbef2643750248501d045b9af5adc85dc7362484842306b8e53b1899b877          96  preregistrations/PREREGISTRATION_SPIRAL_FIT.md.sha256
 cef04b7d5dc83a2d38dd3a2112ce92d1f332af2a331049ab619eac0069d585cb       18421  preregistrations/PREREGISTRATION_SPT3G_DEVIATIONS.md
 c86f2b752b1a68f3b9db49489e12997b8d42d53ee6d0ce0b24c08afbc67376a2        4101  preregistrations/PREREGISTRATION_SPT3G_LETTERS.md
 877582acb66bc91f99770a992b82518fda319238b6c29fd3b73bb90c75eb28b2         100  preregistrations/PREREGISTRATION_SPT3G_LETTERS.sha256
@@ -527,12 +533,12 @@ b629f5347fef5bea31ae30df2c5b35c4fda00d741147318bae28cf5d892023cb        4912  re
 39e1ba35b5c9007087a2391a4eb79e99d7d966dd25c869e6407a4d018cf6ca0f        2218  results_notes/PROFILE_F_RESULTS.md
 cb38e9e0486ee3b44ceadec92903c8200de99485eccc99e250ed91c3b5443b0c        4536  results_notes/QUANTUM_PATH_2026-11-02.md
 917c6dd39b8753588da54ad960a847033a86b1e7c6c83f5ee6a557fd2e84928d        2171  results_notes/RATIO_REPLICATION_RESULTS.md
-378249e04c3d3566af5ca9fa46f369e7592d45554ef1314d2e117e2c386b435a        7927  results_notes/RESULTS_LEDGER_2026-11-02.md
+a731fd754a9526da92bd28104d89d28d9f51393d35e01c0836d51d17aef2b9ad        8366  results_notes/RESULTS_LEDGER_2026-11-02.md
 55a2580473b262d42a4f79083261c321b1fc1a1746d49e7c8afaead46b4faa7f        3186  results_notes/ROBUSTNESS_II_RESULTS.md
 de7bb6e5b9f813da8406f5b6b5f04cc32d279c476ef6bb8fa0a9099cae1965ba        4124  results_notes/ROBUSTNESS_RESULTS.md
 b76245dc1d9c98d0089aefb9bd0e7400ec8525c3d839081d3e3682bea72e7422        6957  results_notes/ROUTE.md
 58051099b3c08599f92a58462c3124f4938bbddde4690cb382fd50d4ae388a94        2354  results_notes/S8_FIXED_CODE_RESULTS.md
-8115779aafb818bea9657e25bc3d37cbbb0d9f3c6c5c092d6c671a6bbb471a5f       38712  results_notes/SCALES_CHECKPOINT.md
+61477b5bb576f54e1f5355de1512afa878a49df638716a4fa20d3ff6101cb492       39927  results_notes/SCALES_CHECKPOINT.md
 ee914f4bbe44c8431e7af62565026caf76fc6e6a16316f8b34f3f08caf1a2965        2837  results_notes/SOLAR_GATE_RESULTS.md
 00064633b892f08608baa7c676bec6d0df8a6f4d448f2e06516eb2f5da0e74cd        8120  results_notes/SPIRAL_POTENTIAL_LOOP.md
 752fe9c00766ccd282f30288960ecff9ca2c29928a5ec94696503bc507035647       10901  results_notes/SPIRAL_W_FEASIBILITY.md

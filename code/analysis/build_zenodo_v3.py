@@ -13,7 +13,8 @@ OUT = os.path.join(CM, "zenodo", "ufe_v3_upload_DRAFT")
 
 GROUPS = {
     "paper": [AE + r"\papers\torsion_born_ede.tex", AE + r"\papers\torsion_born_ede.pdf"]
-             + glob.glob(AE + r"\papers\theory_note\spiral_twist_note*.*"),
+             + glob.glob(AE + r"\papers\theory_note\spiral_twist_note*.*")
+             + glob.glob(AE + r"\papers\theory_note\arxiv\spiral_twist_arxiv.*"),
     "preregistrations": glob.glob(CM + r"\PREREGISTRATION_*.md") + glob.glob(CM + r"\PREREGISTRATION_*.sha256"),
     "results_notes": [CM + "\\" + f for f in (
         "THESIS.md", "PHONE_SUMMARY.md", "ROUTE.md", "SCALES_CHECKPOINT.md", "MODEL_RANKING.md",
