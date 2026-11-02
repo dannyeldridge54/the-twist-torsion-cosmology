@@ -14,13 +14,16 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | PREREGISTRATION_DOVEKIE.md | d639d02 2026-11-01 09:56:48 -0600 |
 | PREREGISTRATION_EARLY_LATE.md | fdf0be1 2026-10-31 21:36:53 -0500 |
 | PREREGISTRATION_EDGE_SCAN.md | 4d42627 2026-11-01 12:34:02 -0600 |
+| PREREGISTRATION_GROWTH_HZ.md | 2a4e6a7 2026-11-02 15:31:38 -0600 |
 | PREREGISTRATION_HIGH_MASS_CORNER.md | 5663fac 2026-11-01 13:31:40 -0600 |
 | PREREGISTRATION_LATE_DOVEKIE_LEE.md | 7ed0717 2026-11-01 13:25:13 -0600 |
 | PREREGISTRATION_LATE_TWIST.md | fe9f73c 2026-10-31 22:00:07 -0500 |
+| PREREGISTRATION_LATE_UNION3.md | 9091d76 2026-11-02 14:23:30 -0600 |
 | PREREGISTRATION_LOCK_ATTRACTOR.md | b82c192 2026-11-01 09:12:56 -0600 |
 | PREREGISTRATION_LOOK_ELSEWHERE.md | 88a0769 2026-10-31 21:39:15 -0500 |
 | PREREGISTRATION_NLFIX_REPLICATION.md | 2fc0684 2026-11-01 18:37:37 -0600 |
 | PREREGISTRATION_NULL_PREDICTIONS.md | 0a2b93d 2026-10-31 21:16:46 -0500 |
+| PREREGISTRATION_PINCER.md | 446031c 2026-11-02 16:22:35 -0600 |
 | PREREGISTRATION_POWER_N.md | b43ba1d 2026-10-31 21:02:30 -0500 |
 | PREREGISTRATION_PROFILE_F.md | 189e567 2026-10-31 21:12:04 -0500 |
 | PREREGISTRATION_RATIO_REPLICATION.md | 10855fb 2026-11-02 12:01:38 -0600 |
@@ -28,6 +31,7 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | PREREGISTRATION_ROBUSTNESS_II.md | 8d43c34 2026-11-02 12:35:15 -0600 |
 | PREREGISTRATION_S8_FIXED_CODE.md | bb5df01 2026-11-02 12:10:06 -0600 |
 | PREREGISTRATION_SHARED_F.md | 03a9221 2026-11-01 07:35:15 -0600 |
+| PREREGISTRATION_SOLAR_LOWZ.md | 76e5603 2026-11-02 15:17:35 -0600 |
 | PREREGISTRATION_SPT3G_DEVIATIONS.md | 06b7675 2026-10-31 12:10:53 -0500 |
 | PREREGISTRATION_SPT3G_LETTERS.md | 5bfc011 2026-10-31 14:07:35 -0500 |
 | PREREGISTRATION_SPT3G_N9.md | 0449a7e 2026-10-31 09:56:46 -0500 |
@@ -35,6 +39,9 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | PREREGISTRATION_SPT3G_TORUS.md | 88c1567 2026-10-31 16:51:00 -0500 |
 | PREREGISTRATION_STAR_FRACTAL.md | 9df1708 2026-11-01 09:41:39 -0600 |
 | PREREGISTRATION_STAR_FRACTAL_ND.md | b4fe84c 2026-11-01 09:42:13 -0600 |
+| PREREGISTRATION_TORSION_F.md | dea107a 2026-11-02 14:51:32 -0600 |
+| PREREGISTRATION_TORSION_F_PLANCK.md | 41a068c 2026-11-02 14:56:12 -0600 |
+| PREREGISTRATION_UFE_CHECKS.md | 211be12 2026-11-02 15:50:07 -0600 |
 
 ## fit_results
 
@@ -61,6 +68,8 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_coupledtwist_gF0.2m-0.1_nlfix.json | ad156ff 2026-11-02 07:44:49 -0600 |
 | cmp_ax_spa_coupledtwist_gF0.3m-0.1.json | f2fec1c 2026-11-01 17:36:17 -0600 |
 | cmp_ax_spa_coupledtwist_gF0.4m-0.1_nlfix.json | ad156ff 2026-11-02 07:44:49 -0600 |
+| cmp_ax_spa_coupledtwist_gF0.4m-0.1_nlfix_r4.json | 7a5418c 2026-11-02 15:12:42 -0600 |
+| cmp_ax_spa_coupledtwist_gF0.4m-0.1_nobao_nlfix.json | 866be5b 2026-11-02 14:06:24 -0600 |
 | cmp_ax_spa_coupledtwist_gF0.4m-0.3_nlfix.json | ad156ff 2026-11-02 07:44:49 -0600 |
 | cmp_ax_spa_coupledtwist_gF0.5m-0.1.json | 16f35bb 2026-11-01 17:43:58 -0600 |
 | cmp_ax_spa_coupledtwist_gF0.5m-0.3.json | f2fec1c 2026-11-01 17:36:17 -0600 |
@@ -174,8 +183,11 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_latetwist_gF0m0.102.json | 6ba595b 2026-11-01 18:38:12 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.102_desy5.json | a50f9ca 2026-11-01 15:56:53 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.102_desy5_nlfix.json | 38f573b 2026-11-02 02:52:15 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.102_desy5_nlfix_r4.json | f0a76fd 2026-11-02 14:35:11 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.102_desy5_nobao_nlfix.json | 866be5b 2026-11-02 14:06:24 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.102_dovekie_nlfix.json | b13fe35 2026-11-02 08:42:41 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.102_nlfix.json | 73414f2 2026-11-02 03:52:14 -0600 |
+| cmp_ax_spa_latetwist_gF0m0.102_union3_nlfix.json | e6a5320 2026-11-02 15:21:47 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2.json | 075ab6b 2026-11-01 10:46:07 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2_desy5.json | 93083be 2026-11-01 14:58:34 -0600 |
 | cmp_ax_spa_latetwist_gF0m0.2_desy5_nlfix.json | 0596f17 2026-11-02 01:52:15 -0600 |
@@ -189,14 +201,20 @@ First commit (short hash, time) in the working repositories (CubeMind for rules,
 | cmp_ax_spa_lcdm_dovekie.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
 | cmp_ax_spa_lcdm_halofit.json | cea6ef3 2026-11-01 07:45:00 -0600 |
 | cmp_ax_spa_lcdm_halofit_desy5.json | e8b56d0 2026-11-01 09:52:46 -0600 |
+| cmp_ax_spa_lcdm_halofit_desy5_nobao.json | 866be5b 2026-11-02 14:06:24 -0600 |
 | cmp_ax_spa_lcdm_halofit_dovekie.json | 8709eec 2026-11-01 21:31:05 -0600 |
+| cmp_ax_spa_lcdm_halofit_nobao.json | 866be5b 2026-11-02 14:06:24 -0600 |
+| cmp_ax_spa_lcdm_halofit_union3.json | 7a5418c 2026-11-02 15:12:42 -0600 |
 | cmp_ax_spa_w0wa.json | 651a0cc 2026-11-01 07:55:05 -0600 |
 | cmp_ax_spa_w0wa_b4.json | b2697ab 2026-11-01 09:27:14 -0600 |
 | cmp_ax_spa_w0wa_desy5.json | b209dcf 2026-11-01 08:55:54 -0600 |
 | cmp_ax_spa_w0wa_dovekie.json | 3c89c3a 2026-11-01 11:18:11 -0600 |
 | cmp_ax_spa_w0wa_halofit.json | cea6ef3 2026-11-01 07:45:00 -0600 |
 | cmp_ax_spa_w0wa_halofit_desy5.json | e8b56d0 2026-11-01 09:52:46 -0600 |
+| cmp_ax_spa_w0wa_halofit_desy5_nobao.json | 866be5b 2026-11-02 14:06:24 -0600 |
 | cmp_ax_spa_w0wa_halofit_dovekie.json | 8709eec 2026-11-01 21:31:05 -0600 |
+| cmp_ax_spa_w0wa_halofit_nobao.json | 866be5b 2026-11-02 14:06:24 -0600 |
+| cmp_ax_spa_w0wa_halofit_union3.json | 7a5418c 2026-11-02 15:12:42 -0600 |
 | cmp_ede.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | cmp_ede8.json | 2c80939 2026-10-29 16:58:00 -0500 |
 | cmp_edeP.json | 2c80939 2026-10-29 16:58:00 -0500 |

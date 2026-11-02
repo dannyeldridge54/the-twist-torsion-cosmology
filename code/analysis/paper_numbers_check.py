@@ -54,6 +54,10 @@ ROWS = [
     ("Late NR vs w0-wa Pantheon+", d(LT_P, "ax_spa_w0wa_halofit") + 0, 2, r"{v}"),
     ("Late NR vs w0-wa DES Y5", d(LT_D, "ax_spa_w0wa_halofit_desy5"), 2, r"{v}"),
     ("Coupled NR", d(CPL, "ax_spa_lcdm_halofit"), 2, r"{v}"),
+    ("Late NR DES Y5 without DESI", d("ax_spa_latetwist_gF0m0.102_desy5_nobao_nlfix", "ax_spa_lcdm_halofit_desy5_nobao"), 2, r"{v}"),
+    ("Coupled NR without DESI", d("ax_spa_coupledtwist_gF0.4m-0.1_nobao_nlfix", "ax_spa_lcdm_halofit_nobao"), 2, r"{v}"),
+    ("w0-wa DES Y5 with DESI", d("ax_spa_w0wa_halofit_desy5", "ax_spa_lcdm_halofit_desy5"), 2, r"{v}"),
+    ("w0-wa DES Y5 without DESI", d("ax_spa_w0wa_halofit_desy5_nobao", "ax_spa_lcdm_halofit_desy5_nobao"), 2, r"{v}"),
     ("beta = -0.05", d(B(-0.05), "ax_spa_lcdm_halofit"), 2, r"{v}"),
     ("beta = +0.05", d(B(0.05), "ax_spa_lcdm_halofit"), 2, r"{v}"),
     ("beta = 0", d(B(0), "ax_spa_lcdm_halofit"), 2, r"{v}"),
@@ -74,7 +78,7 @@ bad = 0
 print(f"{'quantity':32s} {'from files':>12s}  in paper?")
 for label, v, k, pat in ROWS:
     s = f"{v:+.{k}f}" if label.startswith(("All CMB: locked", "All CMB: w0", "P-ACT", "Planck", "SPT", "Late NR",
-                                          "Coupled", "beta")) else f"{v:.{k}f}"
+                                          "Coupled", "beta", "w0-wa")) else f"{v:.{k}f}"
     core = s.lstrip("+")
     sign = "" if not s.startswith(("-", "+")) else ("[-−]" if s.startswith("-") else r"\+?")
     num = re.escape(core.lstrip("-"))

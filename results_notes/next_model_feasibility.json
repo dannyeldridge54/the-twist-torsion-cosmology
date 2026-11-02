@@ -1,0 +1,49 @@
+{
+ "spiral": {
+  "DES Y5 best": {
+   "radius change (M_Pl)": 0.86,
+   "e-folds": 8.177796683277778,
+   "d rho/dN": 0.10516280036144157,
+   "minimum Omega_rho (steady roll)": 0.001843202429976736
+  },
+  "Pantheon+ best": {
+   "radius change (M_Pl)": 2.3699999999999997,
+   "e-folds": 8.177796683277778,
+   "d rho/dN": 0.28980911262397263,
+   "minimum Omega_rho (steady roll)": 0.013998220293315744
+  }
+ },
+ "nieh_yan": {
+  "M for early F = 0.14": 0.2390706185731338,
+  "M for DES Y5 best F = 1.0": 0.6389431042462725,
+  "M for Pantheon+ best F = 2.51": 1.0122762513584402,
+  "F_eff if M = M_Pl": 2.449489742783178,
+  "F if period 2pi with torsion kinetic term (sqrt(3/2))": 1.224744871391589
+ },
+ "desi_crossing": {
+  "DES Y5": {
+   "w0": -0.80438226,
+   "wa": -0.62708095,
+   "z where w = -1": 0.4533822014627852,
+   "w(z=1)": -1.117922735,
+   "w(z=2)": -1.2224362266666666,
+   "phantom in the past": true
+  },
+  "Pantheon+": {
+   "w0": -0.86243475,
+   "wa": -0.51336943,
+   "z where w = -1": 0.3660556676085932,
+   "w(z=1)": -1.119119465,
+   "w(z=2)": -1.2046810366666667,
+   "phantom in the past": true
+  },
+  "DES Y5, no DESI": {
+   "w0": -0.79695234,
+   "wa": -0.68719041,
+   "z where w = -1": 0.41939626277580305,
+   "w(z=1)": -1.140547545,
+   "w(z=2)": -1.2550792800000001,
+   "phantom in the past": true
+  }
+ }
+}

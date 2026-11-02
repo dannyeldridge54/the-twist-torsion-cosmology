@@ -1,0 +1,16 @@
+{
+ "F for natural l (nu_min = 1)": {
+  "l = reduced Planck length 1/M_Pl": 0.062046300014639275,
+  "l = Planck length sqrt(G)": 1.559393602467352,
+  "l = 2 x Planck length": 0.389848400616838
+ },
+ "l needed (in Planck lengths sqrt(G)) for each F": {
+  "early role (P-ACT/Planck) F = 0.14": 3.337442993057658,
+  "late DES Y5 best F = 1.00": 1.2487568227911117,
+  "late Pantheon+ best F = 2.51": 0.7882083173759449,
+  "TF value F1 = sqrt(3/2)": 1.1283791670955126,
+  "TF value F2 = sqrt6": 0.7978845608028654
+ },
+ "F at l = Planck length, closed form": "(4/pi) sqrt(3/2) M_Pl",
+ "check (4/pi) sqrt(3/2)": 1.5593936024673523
+}

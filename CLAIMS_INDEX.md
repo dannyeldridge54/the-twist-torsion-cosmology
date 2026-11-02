@@ -45,6 +45,13 @@ Each rule's hash is in `P/<rule>.sha256`. When it was committed is in `LOCK_TIME
 | HC | High-mass corner | **NR: WORSE (+37.0)**; as written WORSE (+38.0) | `P/PREREGISTRATION_HIGH_MASS_CORNER.md` | `N/LATE_TWIST_RESULTS.md` | `C/axiclass/run_hc.sh` |
 | NM | Null mirror (code check) | two AxiCLASS bugs found and fixed; fixed build +0.13 PASS | post-hoc check + deviations 14:34:07, 14:41:32 | `N/LATE_TWIST_NULL_MIRROR.md` | `F/null_mirror_*.json` |
 | NR | Replication of every n = 1 test on corrected code | done; side-by-side table | `P/PREREGISTRATION_NLFIX_REPLICATION.md` | `N/LATE_TWIST_RESULTS.md` | `F/*_nlfix.json` |
+| B2 | Does each gain depend on DESI? | Late Twist DES Y5 **NOT DESI-DRIVEN** (−5.33 without, 86% kept); Coupled **DESI-DRIVEN** (+0.74 without); w0–wa PARTLY | `P/PREREGISTRATION_ROBUSTNESS_II.md` | `N/ROBUSTNESS_II_RESULTS.md` | `F/*_nobao*.json` |
+| R3 | Cold restarts of the two best points | Late DES Y5 **STABLE** (+0.13); Coupled **COLD-START WORSE** (+2.37; the warm minimum stands, minimiser-sensitive) | same | same | `F/*_r4.json` |
+| LU | Late Twist DES Y5 point on Union3 (independent SNe) | **WEAKENED (−1.82)**; Union3 SNe −4.10; w0–wa −15.00 (context) | `P/PREREGISTRATION_LATE_UNION3.md` | `N/LATE_UNION3_RESULTS.md` | `F/*_union3*.json` |
+| TF | F fixed at √(3/2) and √6 M_Pl (m free) | *pending* | `P/PREREGISTRATION_TORSION_F.md` | — | `F/*_fF*.json` |
+| TF-P | F fixed at (4/π)√(3/2) M_Pl, derived from the Nieh–Yan period | *pending* | `P/PREREGISTRATION_TORSION_F_PLANCK.md` | `N/NIEH_YAN_PERIOD.md` | `F/*_fF0.1930*.json` |
+| LZ | Low-z split of the DES Y5 supernova gain | **CALIBRATION-SENSITIVE** (r = −0.06): neither half alone prefers the Twist; the gain is the low/high-z offset (w0–wa the same, r = −0.17) | `P/PREREGISTRATION_SOLAR_LOWZ.md` | `N/LOWZ_SPLIT_RESULTS.md` | `N/lowz_split.json` |
+| SSG | BI dilaton vs Cassini (Spiral Twist gate) | **ATTRACTOR-PROTECTED** (Reading A): GR point at ϕ = −½, band \|Δχ\| < 0.0072; a pinned dilaton gives no phantom illusion today | `P/PREREGISTRATION_SOLAR_LOWZ.md` | `N/SOLAR_GATE_RESULTS.md` | `N/solar_gate.json` |
 | S8 | S8 on corrected code | Late Twist NEUTRAL; Coupled Twist WORSENS (+0.84σ vs DES Y6) | `P/PREREGISTRATION_S8_FIXED_CODE.md` | `N/S8_FIXED_CODE_RESULTS.md` | `F/s8_fixed_code.json` |
 
 ## Coupled Twist
@@ -67,6 +74,15 @@ Each rule's hash is in `P/<rule>.sha256`. When it was committed is in `LOCK_TIME
 | X7 | Atomic spin echo below lab limits | **PASS** (b₀ ≈ 10⁻⁴³ GeV, 10¹⁰ below the neutron bound) | same | same | same |
 | X9 | Silver (quantum) / golden (atomic) ratio spacings | NOT SUPPORTED / SUGGESTIVE (p 0.044) | same | same | `b4x_ratio_test.json` |
 | G2/S2/S3 | Ratio replication on new data | golden NOT REPLICATED (p 0.56); silver NOT SUPPORTED; switch value DEFINITION-DEPENDENT | `P/PREREGISTRATION_RATIO_REPLICATION.md` | `N/RATIO_REPLICATION_RESULTS.md` | `ratio_replication_test.json` |
+
+## Unification (UFE) consistency checks (supergravity embedding of the BI field; HYPOTHESIS tier)
+
+| # | Claim / test | Verdict | Rule | Write-up | Key files |
+|---|---|---|---|---|---|
+| IN | α = 1 geometry gives acceptable inflation | **TENSION** (n_s 0.9667 at N = 60, 2.4σ low) | `P/PREREGISTRATION_UFE_CHECKS.md` | `N/UFE_CHECKS_RESULTS.md` | `N/ufe_in.json` |
+| ER | Dilaton relaxation supplies the early energy | **TOO SMALL** (≤ 2.5%; G ×13 at BBN) | same | same | `N/ufe_er.json` |
+| LQ | BI value today matches LQG γ | **NO VERDICT** (mirror 0.087) | same | same | `N/ufe_lq.json` |
+| GH | Stored fits vs H(z) chronometers and fσ8 | **NEUTRAL** (all \|Δ\| < 0.5; LT-P NO VERDICT, mirror) | `P/PREREGISTRATION_GROWTH_HZ.md` | `N/GROWTH_HZ_RESULTS.md` | `N/growth_hz.json`, `data/growth_hz_data.json` |
 
 ## History and art track (not evidence for the physics)
 

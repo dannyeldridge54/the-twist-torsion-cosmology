@@ -58,12 +58,16 @@ derived from it. It is tested in three roles:
 - **Late Twist (corrected code):**
   - With Pantheon+ it ties ΛCDM (Δχ² +0.09).
   - With DES Y5 it gains −6.23, a weak hint (1.3σ after look-elsewhere) that **weakens** on the recalibrated
-    DES-Dovekie sample (−1.33).
+    DES-Dovekie sample (−1.33) and on Union3 (−1.82). It does **not** depend on DESI: without DESI it keeps 86% (−5.33).
+  - **The DES Y5 hint is a supernova calibration effect** (pre-registered split, 2 Nov): split at z = 0.1, neither
+    half prefers the field (+0.53 above, −0.29 below). The whole gain is the low/high-redshift offset, and w0–wa
+    behaves the same.
   - It never beats w0–wa.
   - It leaves S8 unchanged.
 - **Coupled Twist (corrected code):**
   - It gains −7.91 against ΛCDM with a small coupling (β ≈ ±0.05), still worse than w0–wa.
   - That coupling raises S8 by about 1%: a cost in growth data that is not in the fit.
+  - Its gain is entirely driven by DESI: without DESI it is slightly worse than ΛCDM (+0.74).
   - The torsion-natural β = 0.816 is **excluded**.
 - **Birefringence (pre-registered):**
   - The minimal field **cannot** produce the measured 0.24–0.28° CMB rotation: EXCLUDED.
@@ -79,10 +83,28 @@ derived from it. It is tested in three roles:
 - **Ratio patterns:** silver- and golden-ratio spacings in particle masses and ionisation energies were NOT
   SUPPORTED. An early golden-ratio hint did not replicate on new data.
 
-The full scoreboard of every pre-registered test, wins and losses alike, is in `CLAIMS_INDEX.md`.
+- **H(z) chronometers and fσ8 growth** (pre-registered, no refit): NEUTRAL for every model; these data cannot
+  separate them.
 
-The full scoreboard of every pre-registered test, wins and losses alike, is in
-`results_notes/PAPER_SCOREBOARD_DRAFT.md`.
+The full scoreboard of every pre-registered test, wins and losses alike, is in `CLAIMS_INDEX.md`
+(and the paper's in `results_notes/PAPER_SCOREBOARD_DRAFT.md`).
+
+### New theory (2 November 2026): the BI field's supergravity geometry and the Spiral Twist
+
+Theory note: doi:[10.5281/zenodo.23899237](https://doi.org/10.5281/zenodo.23899237) (v2; v1
+doi:[10.5281/zenodo.23898709](https://doi.org/10.5281/zenodo.23898709)); PDFs in `paper/`; notes in `results_notes/`.
+
+- **Exact:** in N = 1 supergravity the BI field is a dilaton–axion pair on a hyperbolic field space (α = 1); the
+  axion's kinetic term carries e^{λχ} with **λ = −2√(2/3), fixed**.
+- **Validated:** a two-field solver (matches published attractors to 10⁻¹⁰) and its AxiCLASS version (2×10⁻⁵).
+- **What it implies:**
+  - weak mixing (ξ ≈ 0.82, against the ≳ 370 that strong-mixing DESI fits need);
+  - with the BI angle as ≲ 6–9% of the dark matter, the w0–wa reading bends toward DESI but only reaches the edge of
+    the DESI-like region.
+
+  The decisive fit is not yet run.
+- **Predictions locked before the data** (2 Nov 2026, SHA-256 b629f534…23cb,
+  `results_notes/PREDICTIONS_LOCKED_2026-11-02.md`): DESI DR3 BAO, w ≥ −1, S8, birefringence R, tensor ratio r, gravitational-wave parity.
 
 ## 3. How the work was done (the method is the contribution)
 

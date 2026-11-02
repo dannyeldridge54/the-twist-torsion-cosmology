@@ -53,7 +53,8 @@ does not pay for its two parameters. The favoured flat-bottomed $n=3$ shape is n
 or by natural instanton or anomaly potentials, and the equality lock cannot be derived from the minimal action. Two
 codes agree to 0.4 in $\chi^2$. Acting late with its
 natural $n=1$ potential, on code corrected for two AxiCLASS bugs we found, the field ties $\Lambda$CDM with Pantheon+,
-gains a weak, sample-dependent $\Delta\chi^2=-6.2$ with DES Y5, and never beats $w_0$--$w_a$. The torsion-natural
+gains a weak, sample-dependent $\Delta\chi^2=-6.2$ with DES Y5 that does not depend on DESI, and never beats
+$w_0$--$w_a$. The torsion-natural
 dark-matter coupling is excluded, and the minimal field cannot produce the measured cosmic birefringence. We state
 which parts are derived, which are assumed, and which failed.
 \end{abstract}
@@ -986,8 +987,10 @@ Torsion-natural $|\beta|=0.816$ & excluded & excluded ($+7.2\times10^4$) \\
 \paragraph{Results.} With Pantheon+, the best grid point ($F=2.51\,\Mp$, $m=0.50\,H_0$) ties $\Lambda$CDM
 ($\Delta\chi^2=+0.09$, a fail by the rule). With DES Y5 the best point ($F=1.00\,\Mp$, $m=1.26\,H_0$) gains
 $\Delta\chi^2=-6.23$, only $1.3\sigma$ after the look-elsewhere correction over the searched $F$ values; on the
-recalibrated DES-Dovekie sample the gain shrinks to $-1.33$ (\textbf{weakened}). Against $w_0$--$w_a$ the field is
-worse with every sample. The corner of sub-Planckian $F$ and large $m$ favoured in Refs.~\cite{lin2025,shiu2026}
+recalibrated DES-Dovekie sample the gain shrinks to $-1.33$ (\textbf{weakened}). The DES Y5 gain is not driven by
+DESI: without DESI DR2 it is $-5.33$ (86\% retained, at $(F,m)$ fixed to the with-DESI best point), whereas
+$w_0$--$w_a$ keeps only 49\% of its gain ($-19.76\to-9.77$). Against $w_0$--$w_a$ the field is worse with every
+sample, with or without DESI. The corner of sub-Planckian $F$ and large $m$ favoured in Refs.~\cite{lin2025,shiu2026}
 remains much worse ($+37$) in our setup, possibly because our closure method does not start the field close enough to
 the hilltop. At the best points the field leaves structure growth unchanged: $S_8=0.820$ and $0.819$ against
 $\Lambda$CDM's $0.818$ and $0.819$ on the same data.
@@ -999,7 +1002,8 @@ produces an apparent phantom crossing (near $z\approx0.8$). These features match
 The torsion-natural $|\beta|=0.816$ is excluded ($\Delta\chi^2\approx+7.2\times10^4$ for either sign). The coupled
 field is still worse than $w_0$--$w_a$ once its parameters are counted, and its coupling raises $\sigma_8$ by 1.4\%:
 $S_8=0.828$, $0.84\sigma$ further than $\Lambda$CDM from the DES Y6 3$\times$2pt value $0.789\pm0.012$
-\cite{desy6}. Weak lensing is not in the fit, so part of its gain is paid for elsewhere.
+\cite{desy6}. Weak lensing is not in the fit, so part of its gain is paid for elsewhere. Its gain is also entirely
+driven by DESI: without DESI DR2 the coupled field is $+0.74$ against $\Lambda$CDM.
 
 \paragraph{Birefringence, pre-registered.} The minimal fermion coupling is fixed by the action:
 $\mathcal L\supset-(\sqrt6/4\Mp)\,\partial_\mu\phi\,J_5^\mu$ in the Nieh--Yan form \cite{mercuri2009}, with an extra
@@ -1093,7 +1097,11 @@ converged ($R-1=0.015$, $H_0=68.29\pm0.27$); the early-energy chains had not ($R
 
 \paragraph{Further limitations.} (i) The axion weak gravity conjecture requires $F\lesssim0.008\,\Mp$ for typical
 EDE parameters \cite{rudelius2022}; our fitted early decay constant is $F\simeq0.145\,\Mp$ and the late role needs
-$F\sim\Mp$, as do most axion EDE and quintessence models. (ii) With the SH0ES distance ladder included, which we
+$F\sim\Mp$, as do most axion EDE and quintessence models. A pseudoscalar coupled to the Nieh--Yan term in
+Einstein--Cartan gravity acquires an extra kinetic contribution that raises its effective decay constant, so a
+sub-Planckian fundamental $f$ can act as a Planckian $F$ \cite{adshead2026}; this has not yet been applied to late-time
+dark energy. Separately, quantum-gravity arguments favour axion-quintessence masses well above $H_0$ \cite{shiu2026},
+whereas our late fits sit at $m\simeq0.5$--$1.3\,H_0$. (ii) With the SH0ES distance ladder included, which we
 exclude by design, the locked field improves on $\Lambda$CDM by $\Delta\chi^2=-30.2$ ($H_0=72.2$, $f_{\rm EDE}=0.126$)
 on Planck + DESI + Pantheon+. That improvement is driven by the $H_0$ prior. (iii) Mechanisms that place an EDE
 episode at equality and let one field act both early and late already exist \cite{ramadan2023,brissenden2023}. Our
@@ -1103,7 +1111,15 @@ $\theta_i\simeq2.78$) found a $\sim2\sigma$ preference on Planck alone \cite{mur
 analysis showed that the inferred $f_{\rm EDE}$ depends strongly on which fixed values are chosen \cite{herold2022}.
 That is the effect our look-elsewhere correction accounts for. What is new here is the torsion motivation, the tie of the
 onset to the fitted $\omega_b+\omega_c$, and the pre-registered tests on the newer data. (v) Torsion cosmology has also
-been fitted directly to DESI DR2 \cite{liu2025torsion}, with a torsion parameter consistent with zero.
+been fitted directly to DESI DR2 \cite{liu2025torsion}, with a torsion parameter consistent with zero (the authors
+also report an AIC preference). (vi) One field cannot carry both roles with a sum of the two potentials: after the
+early episode the early term confines the late roll to $\Delta\phi\lesssim0.005\,\Mp$, against the
+$0.08$--$0.20\,\Mp$ the late fits need (it would cost $10^6$--$10^8$ times today's dark energy; script in the
+repository). This agrees with the general single-field obstruction of Ref.~\cite{giare2026}, so the two roles need two
+degrees of freedom. (vii) A canonical field cannot cross $w=-1$, which DESI prefers: its background obeys
+$\rho+p=\dot\phi^2\ge0$. Coupling dark energy to the Nieh--Yan density in teleparallel gravity removes the perturbative
+obstruction to crossing and predicts parity-violating gravitational waves \cite{kang2026}. For this field it would have
+to be combined with a non-canonical kinetic term, so it is an extension, not a property of the present model.
 
 \paragraph{``The code fix could have been tuned to help the model.''} The fix had to pass a test whose tolerance was
 written before it: a frozen $n=1$ field is a cosmological constant, so its $\chi^2$ must equal $\Lambda$CDM's to within
@@ -1432,6 +1448,12 @@ shear with the complete Kilo-Degree Survey} (2025).
   arXiv:2608.06480 (2026).
 \bibitem{ballardini2025} M.~Ballardini, A.~Gruppuso, S.~Paradiso, S.~S.~Sirletti, P.~Natoli, \emph{Planck
   constraints on the scale dependence of isotropic cosmic birefringence}, arXiv:2507.16714 (2025).
+\bibitem{giare2026} W.~Giar\`e, J.~Sakstein, \emph{Unifying early and late dark energy: dynamical requirements and
+  obstructions}, JCAP (2026), arXiv:2605.26116.
+\bibitem{adshead2026} P.~Adshead, S.~Brahma, I.~Das, \emph{Twisting inflation to sub-Planckian axion decay constants},
+  JCAP \textbf{03}, 057 (2026), arXiv:2507.10696.
+\bibitem{kang2026} Y.~Kang, M.~Li, C.~Yi, \emph{Realization of quintom dark energy after DESI DR2 in Nieh--Yan
+  modified teleparallel gravity}, Eur.\ Phys.\ J.\ C (2026), arXiv:2602.00506.
 \bibitem{yin2026} L.~Yin, G.-H.~Du, T.-N.~Li, X.~Zhang, \emph{Joint constraints on cosmic birefringence and early
   dark energy from ACT, Planck, DESI, and PantheonPlus}, JCAP \textbf{09}, 052 (2026), arXiv:2601.13624.
 \bibitem{desy6} T.~M.~C.~Abbott et al.\ (DES), \emph{Dark Energy Survey Year 6 results: cosmological constraints

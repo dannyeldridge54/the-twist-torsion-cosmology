@@ -1,0 +1,42 @@
+{
+ "B2": {
+  "Late Twist, DES Y5": {
+   "gain_with": -6.228200000000015,
+   "gain_without": -5.327400000000125,
+   "r": 0.8553675219164626,
+   "verdict": "NOT DESI-DRIVEN"
+  },
+  "w0-wa, DES Y5": {
+   "gain_with": -19.75559999999996,
+   "gain_without": -9.769200000000183,
+   "r": 0.4945028245155907,
+   "verdict": "PARTLY DESI-DRIVEN"
+  },
+  "Coupled Twist, Pantheon+": {
+   "gain_with": -7.91170000000011,
+   "gain_without": 0.7447999999999411,
+   "r": -0.09413905987334337,
+   "verdict": "DESI-DRIVEN"
+  },
+  "w0-wa, Pantheon+": {
+   "gain_with": -9.957100000000082,
+   "gain_without": -3.363499999999931,
+   "r": 0.33779915838948116,
+   "verdict": "PARTLY DESI-DRIVEN"
+  }
+ },
+ "R3": {
+  "Late Twist, DES Y5": {
+   "reported": 2639.7862,
+   "cold": 2639.9115,
+   "delta": 0.12530000000015207,
+   "verdict": "STABLE"
+  },
+  "Coupled Twist": {
+   "reported": 2394.3467,
+   "cold": 2396.7214,
+   "delta": 2.374699999999848,
+   "verdict": "COLD-START WORSE"
+  }
+ }
+}

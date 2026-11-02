@@ -12,7 +12,8 @@ AE = r"C:\Users\Danny\.copilot\repos\AEGIS"
 OUT = os.path.join(CM, "zenodo", "ufe_v3_upload_DRAFT")
 
 GROUPS = {
-    "paper": [AE + r"\papers\torsion_born_ede.tex", AE + r"\papers\torsion_born_ede.pdf"],
+    "paper": [AE + r"\papers\torsion_born_ede.tex", AE + r"\papers\torsion_born_ede.pdf"]
+             + glob.glob(AE + r"\papers\theory_note\spiral_twist_note*.*"),
     "preregistrations": glob.glob(CM + r"\PREREGISTRATION_*.md") + glob.glob(CM + r"\PREREGISTRATION_*.sha256"),
     "results_notes": [CM + "\\" + f for f in (
         "THESIS.md", "PHONE_SUMMARY.md", "ROUTE.md", "SCALES_CHECKPOINT.md", "MODEL_RANKING.md",
@@ -23,7 +24,19 @@ GROUPS = {
         "DEEP_REVIEW_2026-11-01b.md", "DEEP_DIVE_HINTS_2026-11-01.md", "DOUBLE_CHECK_2026-11-01.md",
         "ROBUSTNESS_RESULTS.md", "LATE_TWIST_NULL_MIRROR.md", "PAPER_SCOREBOARD_DRAFT.md",
         "COUPLED_TWIST_RESULTS.md", "T2_PHOTON_COUPLING_LOG.md", "B4_BIREFRINGENCE_RESULTS.md", "B4X_SWITCH_RESULTS.md",
-        "RATIO_REPLICATION_RESULTS.md", "S8_FIXED_CODE_RESULTS.md", "b4x_ratio_test.json",
+        "RATIO_REPLICATION_RESULTS.md", "S8_FIXED_CODE_RESULTS.md", "ROBUSTNESS_II_RESULTS.md",
+        "robustness2_score.json", "THEORY_T1_T3_STABILITY.md", "theory_checks.json", "DATA_CATALOG.md",
+        "DATASET_BREAKDOWN.md", "DATASET_BREAKDOWN.json", "RESULTS_LEDGER_2026-11-02.md", "NEXT_MODELS_DESIGN.md",
+        "next_model_feasibility.json", "NIEH_YAN_PERIOD.md", "nieh_yan_period.json", "NIEH_YAN_TWIST_DRAFT.md",
+        "lu_tf_score.json", "b4x_ratio_test.json", "PATH_DECISION_2026-11-02.md", "LATE_UNION3_RESULTS.md",
+        "SOLAR_GATE_RESULTS.md", "solar_gate.json", "LOWZ_SPLIT_RESULTS.md", "lowz_split.json", "lowz_context_ax_spa_w0wa_halofit_desy5.json",
+        "bi_kahler_lambda.json", "tau_audit.json", "UFE_CHECKS_RESULTS.md", "ufe_er.json", "ufe_in.json",
+        "ufe_lq.json", "SPIRAL_POTENTIAL_LOOP.md", "bi_superpotential.json", "SPIRAL_W_FEASIBILITY.md",
+        "spiral_w_scan.json", "spiral_w_benchmark.json", "GROWTH_HZ_RESULTS.md", "growth_hz.json",
+        "PREDICTIONS_LOCKED_2026-11-02.md", "forward_predictions.json", "MIRROR_MAP_SPIRAL.md",
+        "spiral_class_mirror.json", "spiral_mirror_ramos.json", "spiral_matter_angle.json",
+        "spiral_matter_angle_big.json", "spiral_mirror_scan.json", "PATH_REVIEW_FILTERED_2026-11-02.md",
+        "QUANTUM_PATH_2026-11-02.md",
         "ratio_replication_test.json")],
     "fit_results": glob.glob(AE + r"\cmb-fit\results\cmp_*.json") + glob.glob(AE + r"\cmb-fit\results\cpl_*.json")
                    + glob.glob(AE + r"\cmb-fit\results\earlyF_*.json") + glob.glob(AE + r"\cmb-fit\results\weff_*.json")
@@ -42,7 +55,15 @@ GROUPS = {
                                        "lock_attractor.py", "look_elsewhere.py", "auto_judge.py",
                                        "step2_potential.py", "step3b_trigger.py", "nr_verdicts.py",
                                        "b4_birefringence_numbers.py", "b4x_ratio_test.py",
-                                       "ratio_replication_test.py", "paper_numbers_check.py")],
+                                       "ratio_replication_test.py", "paper_numbers_check.py",
+                                       "robustness2_score.py", "theory_checks.py", "dataset_breakdown.py",
+                                       "next_model_feasibility.py", "nieh_yan_period.py", "lu_tf_score.py",
+                                       "bi_kahler_lambda.py", "solar_lowz.py", "lowz_split.py", "tau_audit.py",
+                                       "ufe_checks.py", "bi_superpotential.py", "spiral_w.py", "growth_hz.py",
+                                       "verify_sheets.py", "spiral_class_mirror.py", "forward_predictions.py",
+                                       "pincer.py")]
+            + [AE + r"\cmb-fit\axiclass\spiral_guess.py"]
+            + [CM + r"\data\growth_hz_data.json"],
     "history_track": [CM + "\\" + f for f in (
         "OLD_SOURCES_LOG.md", "WELLING_K7.md", "welling_k7.py", "welling_k7.png", "STAR_FRACTAL_RESULTS.md",
         "STAR_FRACTAL_RESULTS.json", "star_fractal.py", "star_fractal.png", "aizawa_check.py", "aizawa_check.png",

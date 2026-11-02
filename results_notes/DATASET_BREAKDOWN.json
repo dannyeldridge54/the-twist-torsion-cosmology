@@ -1,0 +1,143 @@
+{
+ "Late Twist, Pantheon+ (corrected)": {
+  "total": 0.089,
+  "by_dataset": {
+   "Pantheon+": -1.124,
+   "SPT-3G D1": -0.521,
+   "Planck high-l (ACT cut)": -0.152,
+   "ACT DR6 lensing": 0.038,
+   "Planck low-l TT": 0.123,
+   "Planck low-l EE": 0.268,
+   "ACT DR6": 0.37,
+   "DESI DR2 BAO": 1.087
+  }
+ },
+ "Late Twist, DES Y5 (corrected)": {
+  "total": -6.228,
+  "by_dataset": {
+   "DES Y5": -8.889,
+   "Planck low-l EE": -0.292,
+   "Planck high-l (ACT cut)": -0.134,
+   "Planck low-l TT": 0.132,
+   "DESI DR2 BAO": 0.266,
+   "ACT DR6 lensing": 0.589,
+   "SPT-3G D1": 0.634,
+   "ACT DR6": 1.466
+  }
+ },
+ "Late Twist, DES Y5, no DESI": {
+  "total": -5.327,
+  "by_dataset": {
+   "DES Y5": -6.071,
+   "Planck high-l (ACT cut)": -0.885,
+   "ACT DR6 lensing": -0.123,
+   "Planck low-l TT": -0.054,
+   "SPT-3G D1": 0.092,
+   "Planck low-l EE": 0.758,
+   "ACT DR6": 0.954
+  }
+ },
+ "Late Twist, DES-Dovekie (corrected, LD)": {
+  "total": -1.335,
+  "by_dataset": {
+   "DES-Dovekie": -4.69,
+   "SPT-3G D1": -0.194,
+   "Planck low-l TT": 0.009,
+   "Planck high-l (ACT cut)": 0.253,
+   "Planck low-l EE": 0.349,
+   "DESI DR2 BAO": 0.355,
+   "ACT DR6 lensing": 0.691,
+   "ACT DR6": 1.893
+  }
+ },
+ "Late Twist, Union3 (corrected, LU)": {
+  "total": -1.823,
+  "by_dataset": {
+   "Union3": -4.099,
+   "DESI DR2 BAO": -1.116,
+   "ACT DR6": -0.33,
+   "ACT DR6 lensing": 0.046,
+   "Planck low-l TT": 0.066,
+   "SPT-3G D1": 0.451,
+   "Planck high-l (ACT cut)": 0.524,
+   "Planck low-l EE": 2.636
+  }
+ },
+ "w0-wa, Union3 (context)": {
+  "total": -14.996,
+  "by_dataset": {
+   "Union3": -6.119,
+   "DESI DR2 BAO": -4.72,
+   "ACT DR6": -1.878,
+   "Planck low-l EE": -1.776,
+   "SPT-3G D1": -1.048,
+   "ACT DR6 lensing": -0.092,
+   "Planck low-l TT": 0.189,
+   "Planck high-l (ACT cut)": 0.446
+  }
+ },
+ "Coupled Twist, Pantheon+ (corrected)": {
+  "total": -7.912,
+  "by_dataset": {
+   "DESI DR2 BAO": -4.371,
+   "Pantheon+": -2.159,
+   "SPT-3G D1": -1.198,
+   "Planck low-l EE": -1.196,
+   "ACT DR6": -0.422,
+   "Planck low-l TT": 0.128,
+   "ACT DR6 lensing": 0.29,
+   "Planck high-l (ACT cut)": 1.016
+  }
+ },
+ "Coupled Twist, no DESI": {
+  "total": 0.745,
+  "by_dataset": {
+   "Planck high-l (ACT cut)": -1.618,
+   "Pantheon+": -1.083,
+   "ACT DR6 lensing": -0.695,
+   "Planck low-l TT": -0.395,
+   "Planck low-l EE": 1.153,
+   "SPT-3G D1": 1.389,
+   "ACT DR6": 1.993
+  }
+ },
+ "w0-wa, DES Y5 (context)": {
+  "total": -19.756,
+  "by_dataset": {
+   "DES Y5": -11.228,
+   "DESI DR2 BAO": -5.248,
+   "Planck low-l EE": -1.913,
+   "ACT DR6": -1.158,
+   "SPT-3G D1": -0.705,
+   "ACT DR6 lensing": -0.022,
+   "Planck low-l TT": 0.068,
+   "Planck high-l (ACT cut)": 0.451
+  }
+ },
+ "w0-wa, Pantheon+ (context)": {
+  "total": -9.957,
+  "by_dataset": {
+   "DESI DR2 BAO": -3.716,
+   "Pantheon+": -2.524,
+   "Planck low-l EE": -1.917,
+   "ACT DR6": -1.39,
+   "SPT-3G D1": -0.617,
+   "ACT DR6 lensing": -0.076,
+   "Planck low-l TT": 0.121,
+   "Planck high-l (ACT cut)": 0.161
+  }
+ },
+ "Early field, all CMB + DESI + Pantheon+ (CAMB)": {
+  "total": -5.631,
+  "by_dataset": {
+   "Planck high-l (ACT cut)": -2.658,
+   "Planck low-l EE": -2.081,
+   "ACT DR6": -1.57,
+   "DESI DR2 BAO": -0.762,
+   "Planck low-l TT": -0.627,
+   "ACT DR6 lensing": 0.187,
+   "Pantheon+": 0.328,
+   "SPT-3G D1": 1.552
+  }
+ }
+}
