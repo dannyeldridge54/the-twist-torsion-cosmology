@@ -15,7 +15,7 @@ OUT = os.path.join(CM, "The_Twist_repository")
 GIT = os.path.join(os.environ["LOCALAPPDATA"], r"github-copilot-git-2.56.0-2\cmd\git.exe")
 TOP = {"README.md": "REPOSITORY_README.md", "CLAIMS_INDEX.md": "CLAIMS_INDEX.md", "REPRODUCE.md": "REPOSITORY_REPRODUCE.md", "JOURNEY.md": "REPOSITORY_JOURNEY.md",
        "CITATION.cff": "REPOSITORY_CITATION.cff", "LICENSE": os.path.join(AE, "LICENSE"),
-       "LICENSE-ADDENDUM.md": "REPOSITORY_LICENSE_ADDENDUM.md"}
+       "LICENSE-ADDENDUM.md": "REPOSITORY_LICENSE_ADDENDUM.md", "REVIEWER_QUICK_CHECK.md": "REVIEWER_QUICK_CHECK.md"}
 
 VERIFY = '''"""Check the record: every rule against its .sha256, and every file against MANIFEST.txt.
     python verify.py"""
