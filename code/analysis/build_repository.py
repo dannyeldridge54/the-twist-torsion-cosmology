@@ -90,8 +90,8 @@ def main():
         for f in sorted(set(files)):
             sub = grp
             if grp == "code":
-                sub = ("code/coupled" if os.sep + "coupled" + os.sep in f else
-                       "code/nlfix" if os.sep + "nlfix" + os.sep in f else
+                sub = ("code/axiclass/coupled" if os.sep + "coupled" + os.sep in f else   # same layout as AEGIS,
+                       "code/axiclass/nlfix" if os.sep + "nlfix" + os.sep in f else      # so relative paths work
                        "code/axiclass" if f.startswith(AE) else "code/analysis")
             place(f, os.path.join(sub, os.path.basename(f)))
             if grp in ("preregistrations", "fit_results") and f.endswith((".md", ".json")):

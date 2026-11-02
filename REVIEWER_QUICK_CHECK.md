@@ -11,7 +11,7 @@ You do not have to trust anything here. Every claim can be checked from public f
 | Coupled field: −7.9 with β ≈ ±0.05, but S8 worsens | That torsion fixes the coupling (β = 0.816 is excluded) |
 | The minimal field cannot make the measured birefringence | That it explains birefringence |
 | One clean open prediction: R = 0.997 (switch-on z ≈ 1.5) | A detection of anything |
-| Two AxiCLASS bugs, reproducible in 10 s (`code/nlfix/BUG_REPORT.md`) | — |
+| Two AxiCLASS bugs, reproducible in 10 s (`code/axiclass/nlfix/BUG_REPORT.md`) | — |
 
 ## 2. Were the rules written before the results? (2 minutes)
 
@@ -37,7 +37,7 @@ This should print −6.23. `code/analysis/nr_verdicts.py` applies every rule and
 ## 4. Are the code bugs real? (1 minute with AxiCLASS installed)
 
 ```
-python code/nlfix/bug_reproducer.py <AxiCLASS>/python/build
+python code/axiclass/nlfix/bug_reproducer.py <AxiCLASS>/python/build
 ```
 
 For a frozen field that must equal Λ, the installed AxiCLASS gives σ8 = 0.25 instead of 0.81.

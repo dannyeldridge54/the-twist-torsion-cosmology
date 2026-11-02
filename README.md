@@ -112,7 +112,10 @@ The full scoreboard of every pre-registered test, wins and losses alike, is in
 | `results_notes/` | Verdict write-ups, the thesis, the route, reviews, the scoreboard |
 | `fit_results/` | Every fit's best-fit point and χ² (`cmp_*.json`) plus derived results |
 | `code/axiclass/` | Fit drivers, grid, edge, LD and HC runners, null mirror |
-| `code/coupled/` | The Coupled Twist patch to AxiCLASS, its build script and validation gates |
+| `code/axiclass/coupled/` | The Coupled Twist patch to AxiCLASS, its build script and validation gates |
+| `code/axiclass/nlfix/` | The two AxiCLASS bug fixes, the 10-second bug reproducer (`BUG_REPORT.md`) and the corrected-code runs |
+| `environment/` | Exact environment (`environment.yml`, `pip_freeze.txt`) and `setup_twist_env.sh`, which rebuilds everything |
+| `REVIEWER_QUICK_CHECK.md` | **For reviewers:** check every claim in 10 minutes |
 | `code/analysis/` | Ranking (all verdicts), house check, look-elsewhere, lock attractor and others |
 | `history_track/` | History and art studies (old books, stars in 1D–6D), kept separate: **not evidence for the physics** |
 | `licence/` | Licence, pledge, citation file |

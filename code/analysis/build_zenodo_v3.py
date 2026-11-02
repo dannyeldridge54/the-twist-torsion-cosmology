@@ -33,6 +33,7 @@ GROUPS = {
                        "validate.json", "width_edelockP.json", "width_edelockP_F9.json", "width_pact_edelock.json",
                        "width_spt_edelock.json", "b4_delta_theta.json", "b4x_switch.json",
                        "ratio_s3_switch_defs.json", "s8_fixed_code.json")],
+    "environment": glob.glob(AE + r"\cmb-fit\environment\*.*"),
     "code": glob.glob(AE + r"\cmb-fit\axiclass\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\*.sh")
             + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.sh")
             + glob.glob(AE + r"\cmb-fit\axiclass\nlfix\*.*")
