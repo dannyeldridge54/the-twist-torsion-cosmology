@@ -373,8 +373,8 @@ a376c37d15b0c04b202e5c9542c5c360ea772e0a7fc93dc809350b114325c707        5548  hi
 0a7b005b0a7c4273c76d6103faa40d90c80e43677bea92ddfb870ff707b69f2d         475  licence/CITATION.cff
 7da3b4ed568e7a2bb3c26462e46ed1338b3622e45d949e3da958a32780a5db25        1822  licence/LICENSE
 07d1ef557aca6b33c2edb8e84da63fdd8ec2df73b98767419ec3907247f16499        2732  licence/PLEDGE.md
-4e0e19fc1dc5ce7a7877ed5313d812af482aa1f26dc59e8088010a0909bc0bc7      251488  paper/torsion_born_ede.pdf
-a5f0efa2c25d2c2e73d35e9567b6f5fd59ea3753475cf3ed5f771b8cadc9786b       95791  paper/torsion_born_ede.tex
+83cd5df2286c60a0ae96614fc7d2d61e4449f6b0fc1ab62f60fccb54b4becf26      254211  paper/torsion_born_ede.pdf
+40f7acd90c5128e95ca3c4075e9c836bb0f81fa36f25681942f5b60f968b1b3b       97574  paper/torsion_born_ede.tex
 9e714bad9bedb2d7257f662cdfafe6d04f982ad65bb27f25824cda6e46b8c06c        7167  preregistrations/PREREGISTRATION_B4X_PHOTON_COUPLING.md
 0e45375888d77dfcb3098e5f7813ceace8fe3717f313e82e5dfa784b8d0c7f58         105  preregistrations/PREREGISTRATION_B4X_PHOTON_COUPLING.md.sha256
 4a38898d2013a5978eaf0cbc94435cdd6c2ad1b44a2fdf3b8579fd657334490e        4048  preregistrations/PREREGISTRATION_B4_BIREFRINGENCE.md
