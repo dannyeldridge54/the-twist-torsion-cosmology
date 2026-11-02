@@ -151,3 +151,46 @@
   uncoupled Twist. It agrees with an independent October 2026 paper (Babu & Amendola, mode near −0.05). Preliminary.
 - **Emails:** lawyer (free licence review) and one scientist (Poulin: bug report + endorsement request). Waiting for
   replies.
+
+## Update 2026-11-01 20:22: Coupled Twist done (as written)
+
+- A small coupling (about 0.05, either sign) helps by about 7–8 over the plain Twist.
+- A coupling of 0.1 is ruled out, and torsion's natural 0.816 does not even give a physical universe.
+- Only the negative sign gives the "phantom crossing" DESI hints at.
+- All of this matches an independent October 2026 paper.
+- (Correction: the two signs fit about equally well; "negative preferred" was too strong.)
+- The corrected-code rerun tonight will give the headline numbers.
+
+## Update 2026-11-01 21:31: Dovekie check
+
+- The DES Y5 gain for the Late Twist does NOT survive the corrected DES supernovae: a tie at best.
+- So the late field ties the standard model, and the evolving-dark-energy fit is still better.
+- This was the expectation written down before the run.
+
+## Update 2026-11-02 00:00: tonight's original runs are all done
+
+- High-mass corner: much worse (+38 at best), so that corner doesn't work here.
+- The paper is updated with all the late results and the two code bugs, and rebuilt.
+- The corrected-code rerun continues overnight; it becomes the headline in the morning.
+
+## Final results (2 November 2026; supersedes earlier "pending" lines)
+
+**Tiers:** EVIDENCE = measured under locked rules; HYPOTHESIS = the model; MEANING = our reading.
+
+- **Late Twist, on corrected code (EVIDENCE):**
+  - Pantheon+: ties ΛCDM (+0.09).
+  - DES Y5: −6.23, a weak hint at 1.3σ global, which WEAKENS on DES-Dovekie (−1.33).
+  - It always loses to w0–wa.
+  - S8 is NEUTRAL.
+- **Coupled Twist, on corrected code (EVIDENCE):**
+  - −7.91 with β ≈ ±0.05, still WORSE than w0–wa.
+  - S8 WORSENS (+0.84σ against DES Y6).
+  - The torsion-natural β = 0.816 is EXCLUDED.
+- **Birefringence (EVIDENCE):**
+  - The minimal field cannot produce the measured angle: EXCLUDED.
+  - With one added photon coupling it predicts R = 0.997 (switch-on z ≈ 1.5). OPEN, for LiteBIRD.
+- **Spins (EVIDENCE):** b₀ ≈ 10⁻⁴³ GeV, 10¹⁰ below the lab limits. PASS: safe and invisible.
+- **Ratio patterns (EVIDENCE):** silver NOT SUPPORTED; golden NOT REPLICATED on new atoms.
+- **Bottom line (MEANING):** a carefully tested torsion-motivated field with weak, sample-dependent hints, and one
+  clean open prediction (R). It is not a detection. The method (rules first, every loss kept, the two AxiCLASS bugs
+  found and fixed) is the most solid contribution.

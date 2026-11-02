@@ -1,0 +1,32 @@
+{
+ "Q (fermion mass ratios) | silver": {
+  "D": 0.22996749057483246,
+  "p": 0.31901,
+  "verdict": "NOT SUPPORTED"
+ },
+ "Q (fermion mass ratios) | golden": {
+  "D": 0.23031547452571421,
+  "p": 0.32387,
+  "verdict": "(reported)"
+ },
+ "Q (fermion mass ratios) | pi": {
+  "D": 0.2556736340487815,
+  "p": 0.611,
+  "verdict": "(reported)"
+ },
+ "A (ionisation / hydrogen) | silver": {
+  "D": 0.23404762021826722,
+  "p": 0.21053,
+  "verdict": "(reported)"
+ },
+ "A (ionisation / hydrogen) | golden": {
+  "D": 0.2209981444076306,
+  "p": 0.04384,
+  "verdict": "SUGGESTIVE"
+ },
+ "A (ionisation / hydrogen) | pi": {
+  "D": 0.24187067629301365,
+  "p": 0.58816,
+  "verdict": "(reported)"
+ }
+}

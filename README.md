@@ -1,6 +1,6 @@
 # The Twist: a pre-registered test of a torsion-motivated scalar field
 
-**Author:** Danny Lee Eldridge · **Version:** 3 (working copy, 1 November 2026) · **Licence:** Hippocratic License 3.0
+**Author:** Danny Lee Eldridge · **Version:** 3 (results final, 2 November 2026) · **Licence:** Hippocratic License 3.0
 (HL3-MIL-SV) + the "for people, not major corporations" addendum (`LICENSE`, `LICENSE-ADDENDUM.md`)
 
 > *Offered freely to everyone, especially the people who will build the technologies and crafts to come.*
@@ -9,10 +9,11 @@ This repository holds the whole programme in one place: the idea, every rule wri
 result, the code that produced them, the honest verdicts (including every loss), and the paper. Nothing in it is
 third-party data; the public likelihoods and codes it uses are listed in `REPRODUCE.md`.
 
-**Status:** this is a **public working copy**, shared openly while some fits are still running.
-- Rows marked *pending* in `CLAIMS_INDEX.md` are filled in when they finish, and the repository is updated.
-- Making the pre-registrations public before those results exist is deliberate: anyone can see the rules came first.
-- A versioned archive (Zenodo) and a preprint (arXiv) will follow when the results are final.
+**Status:** every pre-registered fit has finished (2 November 2026), and every verdict is in `CLAIMS_INDEX.md`.
+- The late-field results are reported on **corrected code** (two AxiCLASS bugs we found and fixed), with the
+  as-written results beside them.
+- A versioned archive (Zenodo) and a preprint (arXiv) are being prepared.
+- **Independent checks are very welcome.**
 
 **For people, not major corporations (`LICENSE-ADDENDUM.md`):**
 - People, students, researchers, universities, non-profits and small and mid-sized businesses may use it, with any AI
@@ -49,19 +50,36 @@ derived from it. It is tested in three roles:
 | **Late Twist** | The same kind of field thawing today, as all the dark energy | Λ⁴[1 − cos(φ/F)] (natural) |
 | **Coupled Twist** | The Late Twist plus a coupling β to dark matter | as Late Twist, with m_c ∝ e^{βφ/M_Pl} |
 
-## 2. The honest headline (so far)
+## 2. The honest headline (final)
 
 - **Early energy:** Planck, ACT and all CMB data combined prefer about 7–8% early energy. That is 2.4σ at the best
   angle, but **only about 1.2–1.4σ** once the look-elsewhere effect is counted. SPT-3G alone does not see it. Allowed
   alongside late dark energy, the hint is **mild**, and it is fragile across supernova samples.
-- **Late Twist:**
-  - With Pantheon+ it fits about as well as ΛCDM, a tie once a code artefact is corrected (see below).
-  - With DES Y5 supernovae it improves on ΛCDM (preliminary). Whether that survives the corrected DES-Dovekie sample
-    is pre-registered and running.
-- **A code artefact, found and explained:** AxiCLASS's halofit reads a matter density inflated by the field, which
-  adds about +1.35 to every Late Twist χ². It was found by a null test and confirmed (+0.03 with halofit off).
-- **What would make it strong:** a prediction only the twist makes, locked before the data. The planned one is the
-  CMB polarisation rotation (birefringence) from the field's photon coupling.
+- **Late Twist (corrected code):**
+  - With Pantheon+ it ties ΛCDM (Δχ² +0.09).
+  - With DES Y5 it gains −6.23, a weak hint (1.3σ after look-elsewhere) that **weakens** on the recalibrated
+    DES-Dovekie sample (−1.33).
+  - It never beats w0–wa.
+  - It leaves S8 unchanged.
+- **Coupled Twist (corrected code):**
+  - It gains −7.91 against ΛCDM with a small coupling (β ≈ ±0.05), still worse than w0–wa.
+  - That coupling raises S8 by about 1%: a cost in growth data that is not in the fit.
+  - The torsion-natural β = 0.816 is **excluded**.
+- **Birefringence (pre-registered):**
+  - The minimal field **cannot** produce the measured 0.24–0.28° CMB rotation: EXCLUDED.
+  - With one added photon coupling it fits, by construction. It then makes a real prediction: the rotation of
+    reionisation-era light is R = 0.997 of the recombination-era rotation. LiteBIRD can test this.
+- **Spins:** the field touches every electron and neutron spin at about 10⁻⁴³ GeV, 10¹⁰ below the lab limits. Safe
+  and invisible.
+- **Two AxiCLASS bugs, found and fixed:**
+  - For n = 1 the field is forced into δ_m.
+  - Halofit/HMcode read the field as matter.
+  - Both were found by a null test, fixed in separate builds, and validated. Every late test was rerun on the fix
+    under a pre-registered rule.
+- **Ratio patterns:** silver- and golden-ratio spacings in particle masses and ionisation energies were NOT
+  SUPPORTED. An early golden-ratio hint did not replicate on new data.
+
+The full scoreboard of every pre-registered test, wins and losses alike, is in `CLAIMS_INDEX.md`.
 
 The full scoreboard of every pre-registered test, wins and losses alike, is in
 `results_notes/PAPER_SCOREBOARD_DRAFT.md`.
@@ -157,8 +175,18 @@ The full story is in `JOURNEY.md`. In short:
    - the turn to the late role (the Late Twist), with a grid, edge scan, Dovekie check and high-mass corner;
    - the Coupled Twist, built and validated;
    - a null test that found and explained a code artefact.
-6. **Next:** fix the artefact (logged first), derive the photon coupling, and lock a birefringence prediction, the
-   one test only the twist can pass.
+6. **2 November 2026:**
+   - the corrected-code replication of every late test;
+   - the photon coupling derived from the literature and a locked birefringence test (EXCLUDED);
+   - the switch prediction R (open);
+   - the spin bound (safe);
+   - S8 on corrected code;
+   - ratio-pattern tests (not supported).
+7. **Next:**
+   - MCMC posteriors;
+   - BAO dissection;
+   - one field or two;
+   - independent replication by others.
 
 ## 9. Keywords
 

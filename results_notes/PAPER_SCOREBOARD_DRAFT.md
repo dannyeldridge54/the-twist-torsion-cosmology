@@ -27,8 +27,10 @@ counted as pre-registered.
 | 17 | Late Twist L2 (vs w0–wa) | D = +10.92 (Pantheon+), +14.44 (DES Y5) | WORSE |
 | 18 | Late Twist L3, P9: shared F | late/early ≈ 7 | DIFFERENT so far; *grid pending* |
 | 19 | Edge scan (DES Y5 blind) | best edge −5.05; none beats the grid's −5.32 | done (no change) |
-| 20 | Coupled Twist C1–C4 | gates V1–V4 pass | *pending* |
-| 21 | Coupled Twist C5: β = 0.816 | — | *pending* (expected EXCLUDED) |
+| 19b | High-mass corner (HC) | best +38.99 vs ΛCDM (Δ_HC +38.03) | WORSE (as explored) |
+| 19c | LD: Late Twist on DES-Dovekie | Δ_D +0.18 | NOT CONFIRMED |
+| 20 | Coupled Twist C1–C4 (as written) | C1 −6.80; C2 D_c −7.76; C3 ΔAIC +5.16; C4 crossing (β < 0 mode) | C1 PASS, C2 NEEDED, C3 WORSE, C4 CROSSES; NR pending |
+| 21 | Coupled Twist C5: β = 0.816 | unphysical (H₀ ±299), +10⁵ | EXCLUDED |
 | 22 | Star fractal, 1D–6D | homogeneous 3–100 pc; fractal-like in phase space | as stated (art track) |
 | 23 | Symbol-derived numbers | at chance | FAIL |
 
@@ -41,7 +43,7 @@ counted as pre-registered.
 | Two codes (CAMB vs AxiCLASS) | within 0.4 | pass |
 | Late Twist null mirror | +1.35 frozen offset; +0.03 without halofit | code artefact (halofit Ω_m bookkeeping) |
 | Pantheon+ edge points | — | *pending*, post-hoc |
-| R2: Late Twist L1 with DES Y5 | −5.32 (official, grid + edge); LEE-G Z_glob 1.03σ | PASS → the Late Twist verdict depends on the SN set; LD pending |
+| R2: Late Twist L1 with DES Y5 | −5.32 (official, grid + edge); LEE-G Z_glob 1.03σ | PASS on DES Y5 only; NOT CONFIRMED on Dovekie (LD) |
 
 ## Tally (to be finalised)
 

@@ -78,3 +78,41 @@ with the sign of β φ̇", the physical content V4 intends. This is logged as a 
 - They cite a prior study reporting 3–5σ coupling evidence (cosine-like, ACT + SPT-3G + DES-Dovekie) that their
   results disagree with. Find it in their bibliography before writing COUPLED_TWIST_RESULTS.md.
 - **No rule changes.**
+
+## Grid results so far (2026-11-01 18:28; preliminary until C5 and the beta profile are done)
+
+**Grid (9/9; Pantheon+):**
+- 3 points are non-viable: (F, m) = (2.0, 0.50), (2.0, 0.32), (3.16, 0.32).
+- **Best: F 2.0 M_Pl, m 0.79 H0, beta = -0.044: chi2 -6.80 vs LCDM**, about -8.15 offset-corrected.
+- **Bimodal beta:**
+  - negative mode -0.044 / -0.041 (-6.80 / -6.64);
+  - positive mode +0.040 to +0.047 (-6.47 / -6.15 / -3.08 / -2.62).
+  - The negative mode is preferred.
+
+**Verdicts at this stage:**
+- C1 PASS (-6.80);
+- C2 NEEDED (D_c -7.76 vs the uncoupled Late Twist; the offset cancels);
+- C3 WORSE vs w0-wa (dAIC +5.16).
+
+**C4 (coupled_weff.py on the best point): CROSSES.** Apparent w_eff = -0.956 at z = 0, -0.992 at 0.5, -1.012 at 1.0
+and -1.039 at 2.0, crossing -1 near z of about 0.8, with rho_DE > 0 throughout. The true Omega_m today is 0.300.
+
+**Independent agreement with Babu & Amendola (arXiv:2610.23497):** the same bimodal |beta| near 0.05, the negative mode
+preferred, and the apparent crossing coming from the negative mode near z of about 1.
+
+**WARNING: sigma8 and S8 from this build are INVALID** (sigma8 = 0.249). This is the B0 delta_m bug: n_axion = 1 forces
+the field into delta_m and dilutes it by about Omega_m/(Omega_m + Omega_scf), about 0.3. Do not quote S8 for Late Twist
+or Coupled Twist runs until they are re-evaluated on a fixed build (TODO, B0 follow-up).
+
+## C5 and beta profile, partial (2026-11-01 19:31)
+
+- **C5, beta = +0.816 (torsion-natural):** the minimiser returned a finite but **unphysical** point: H0 = -298, chi2 =
+  106023, which is +103,621 vs LCDM. Both restarts landed near 53,000 in log-likelihood terms.
+- **Verdict as written: EXCLUDED.** The rule is delta chi2 >= 0. The fit never reached a physical cosmology, which agrees
+  with the earlier finding that the recombination solver fails near this beta. This is consistent with Babu & Amendola's
+  abs(beta) < 0.073.
+- beta = -0.816 is still running; C5 is final when it ends.
+- **Beta profile at (F 2.0, m 0.79):** beta = 0 gives +1.05 vs LCDM. The other four points are running.
+
+**Correction (2026-11-01 20:22):** the β profile shows the two modes about equal (+0.05: −6.93; −0.05: −6.07). "Negative
+preferred" above was too strong; only the negative mode crosses. The final write-up is COUPLED_TWIST_RESULTS.md.

@@ -1,0 +1,92 @@
+{
+ "G2 atomic Z=21-60 | silver": {
+  "n": 40,
+  "D": 0.24908634837567015,
+  "p": 0.46731,
+  "verdict": "(reported)"
+ },
+ "G2 atomic Z=21-60 | golden": {
+  "n": 40,
+  "D": 0.25558149133200986,
+  "p": 0.55885,
+  "verdict": "NOT REPLICATED"
+ },
+ "G2 atomic Z=21-60 | pi": {
+  "n": 40,
+  "D": 0.32767708428630965,
+  "p": 0.89136,
+  "verdict": "(reported)"
+ },
+ "S2 hadron mass ratios | silver": {
+  "n": 17,
+  "D": 0.18228116068929498,
+  "p": 0.72729,
+  "verdict": "NOT SUPPORTED"
+ },
+ "S2 hadron mass ratios | golden": {
+  "n": 17,
+  "D": 0.18049095591448452,
+  "p": 0.67488,
+  "verdict": "(reported)"
+ },
+ "S2 hadron mass ratios | pi": {
+  "n": 17,
+  "D": 0.15671239199723558,
+  "p": 0.24305,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=21-40 | silver": {
+  "n": 20,
+  "D": 0.2528134683532818,
+  "p": 0.52291,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=21-40 | golden": {
+  "n": 20,
+  "D": 0.2930591094398814,
+  "p": 0.7071,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=21-40 | pi": {
+  "n": 20,
+  "D": 0.33608054068699666,
+  "p": 0.89136,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=41-60 | silver": {
+  "n": 20,
+  "D": 0.2453592283980585,
+  "p": 0.37927,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=41-60 | golden": {
+  "n": 20,
+  "D": 0.2181038732241384,
+  "p": 0.07853,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=41-60 | pi": {
+  "n": 20,
+  "D": 0.31927362788562264,
+  "p": 0.88393,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=2-60 pooled | silver": {
+  "n": 59,
+  "D": 0.24424336812159123,
+  "p": 0.48034,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=2-60 pooled | golden": {
+  "n": 59,
+  "D": 0.24444448130551485,
+  "p": 0.49401,
+  "verdict": "(reported)"
+ },
+ "(desc) Z=2-60 pooled | pi": {
+  "n": 59,
+  "D": 0.30004451222067197,
+  "p": 0.89136,
+  "verdict": "(reported)"
+ }
+}

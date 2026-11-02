@@ -21,21 +21,27 @@ GROUPS = {
         "COUPLED_TWIST_NOTES.md", "LOCK_ATTRACTOR_RESULTS.md", "LOCK_ATTRACTOR_RESULTS.json",
         "LOCK_ATTRACTOR_PHASE.json", "STEP2_RESULT.md", "STEP3B_RESULT.md", "DEEP_REVIEW_2026-11-01.md",
         "DEEP_REVIEW_2026-11-01b.md", "DEEP_DIVE_HINTS_2026-11-01.md", "DOUBLE_CHECK_2026-11-01.md",
-        "ROBUSTNESS_RESULTS.md", "LATE_TWIST_NULL_MIRROR.md", "PAPER_SCOREBOARD_DRAFT.md")],
+        "ROBUSTNESS_RESULTS.md", "LATE_TWIST_NULL_MIRROR.md", "PAPER_SCOREBOARD_DRAFT.md",
+        "COUPLED_TWIST_RESULTS.md", "T2_PHOTON_COUPLING_LOG.md", "B4_BIREFRINGENCE_RESULTS.md", "B4X_SWITCH_RESULTS.md",
+        "RATIO_REPLICATION_RESULTS.md", "S8_FIXED_CODE_RESULTS.md", "b4x_ratio_test.json",
+        "ratio_replication_test.json")],
     "fit_results": glob.glob(AE + r"\cmb-fit\results\cmp_*.json") + glob.glob(AE + r"\cmb-fit\results\cpl_*.json")
                    + glob.glob(AE + r"\cmb-fit\results\earlyF_*.json") + glob.glob(AE + r"\cmb-fit\results\weff_*.json")
                    + glob.glob(AE + r"\cmb-fit\results\null_mirror*.json")
                    + [AE + r"\cmb-fit\results\\" + f for f in (
                        "VERDICT_LOCK.json", "N_PACT_LOCK.json", "cross_engine_pact.json", "engine_check.json",
                        "validate.json", "width_edelockP.json", "width_edelockP_F9.json", "width_pact_edelock.json",
-                       "width_spt_edelock.json")],
+                       "width_spt_edelock.json", "b4_delta_theta.json", "b4x_switch.json",
+                       "ratio_s3_switch_defs.json", "s8_fixed_code.json")],
     "code": glob.glob(AE + r"\cmb-fit\axiclass\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\*.sh")
             + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.py") + glob.glob(AE + r"\cmb-fit\axiclass\coupled\*.sh")
             + glob.glob(AE + r"\cmb-fit\axiclass\nlfix\*.*")
             + [AE + r"\cmb-fit\cmbfit_compare.py"]
             + [CM + "\\" + f for f in ("rank_models.py", "house_check.py", "audit_all.py", "fix_mojibake.py",
                                        "lock_attractor.py", "look_elsewhere.py", "auto_judge.py",
-                                       "step2_potential.py", "step3b_trigger.py")],
+                                       "step2_potential.py", "step3b_trigger.py", "nr_verdicts.py",
+                                       "b4_birefringence_numbers.py", "b4x_ratio_test.py",
+                                       "ratio_replication_test.py")],
     "history_track": [CM + "\\" + f for f in (
         "OLD_SOURCES_LOG.md", "WELLING_K7.md", "welling_k7.py", "welling_k7.png", "STAR_FRACTAL_RESULTS.md",
         "STAR_FRACTAL_RESULTS.json", "star_fractal.py", "star_fractal.png", "aizawa_check.py", "aizawa_check.png",

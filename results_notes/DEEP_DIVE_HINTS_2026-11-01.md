@@ -247,3 +247,40 @@ paper.
 ## Hourly loop (2026-11-01 17:44): no new online leads
 
 The events this hour (the DES Y5 official fit completed; first Coupled Twist points) bear on literature already read at primary-source level: Babu & Amendola arXiv:2610.23497 (abstract read; bimodal beta modes near +-0.05 with the negative one preferred, which our grid reproduces) and the thawing-evidence papers logged at 16:36. One round, no new claim-relevant hits. Dive closed.
+
+## Expectations for the remaining NR results (written 2026-11-02 07:51, before they landed; NOT a rule)
+
+| Pending | Expected | Confidence |
+|---|---|---|
+| NR LD (Dovekie) | Δ_D ≈ −0.5 to −1.2 → most likely NOT CONFIRMED, possibly WEAKENED; DES Y5 best point +1 to +4 on Dovekie | fairly confident |
+| NR C5 (abs(β) = 0.816) | EXCLUDED (unphysical) | near certain |
+| NR β profile | bimodal at about ±0.04–0.05; β = 0 worse by 7–8; ±0.1 worse by more than 100 | confident |
+| NR Coupled final | best ≈ −8 ± 0.5; C1 PASS, C2 NEEDED, C3 WORSE | confident |
+| NR HC | WORSE (≈ +35 to +40) | near certain |
+
+A CONFIRMED LD (Δ_D ≤ −4) would be a surprise.
+
+## Expectations for the NR beta profile and C5 (written 2026-11-02 10:08, before they landed; beta=0 already in at -0.63)
+
+- beta -0.05: about -7.5 to -8.
+- beta +0.05: about -6.5 to -7.8 (could edge ahead).
+- beta -0.1: about +100 to +150.
+- beta +0.1: about +150 to +200.
+- C5 (beta = +-0.816): about +1e5, unphysical, so EXCLUDED.
+- Surprise if either +-0.1 point is below +50, or either +-0.05 point beats -7.91 by more than 0.5.
+
+## Review loop after B4 (2026-11-02 10:24:15): 4 web rounds, the last with no new claim-relevant hits
+
+| Round | Found | Use |
+|---|---|---|
+| 1 | Joint ACT + Planck β = 0.277° ± 0.057° (Eskilt, arXiv:2608.06480, primary page); SPT-3G and ACT DR6 only constrain anisotropic birefringence; nothing yet from Simons Observatory | **Hit:** B4 target mismatch, logged as a deviation with a sensitivity table (B4_BIREFRINGENCE_RESULTS.md) |
+| 1 | The Quevillon & Smith (1903.12559) abstract does not state decoupling | **Hit:** citation to correct |
+| 2 | Bauer, Neubert & Thamm, arXiv:1708.00443 eq. 13: heavy fermions decouple from aγγ (B1 ≈ −m_a²/12m_f²) | Correct citation for branch E |
+| 2 | Carralot et al., arXiv:2602.12019: low-ℓ EB separates DE-like from DM-like birefringence; mass transition near 1e-32 eV | Context for B4 (the Twist is in the DE-like regime) |
+| 3 | D'Amico, Kaloper & Westphal, arXiv:2607.27318: ultralight-field birefringence is constrained by the WGC; domain walls as an alternative | Context only |
+| 4 | No new BI-field, DESI or birefringence papers beyond those already logged (2608.09487, 2608.19392, 2412.05982, 2412.16617, hep-th/0110150) | None: level |
+
+**Local:**
+- NR β = −0.05 → −7.37 vs ΛCDM, the mirror of +0.05 (−7.34). This matches the logged expectation (bimodal at ±0.04–0.05; β = 0 worse by about 7).
+- The house check found 1 hit (an uncommitted result JSON). It was committed, and the next pass found 0.
+- check_code: builds match the snapshot, no duplicate fits, 4 running.

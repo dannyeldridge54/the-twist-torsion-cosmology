@@ -66,3 +66,9 @@ The official DES Y5 fit (24 grid + 8 locked edge points) is complete:
 
 The Late Twist verdict therefore depends on the supernova sample, as A3 did. The LD check (DES-Dovekie) decides
 whether the DES Y5 gain survives the calibration fix. Look-elsewhere: Z_glob = 1.03σ.
+
+## LD verdict (2026-11-01 21:31)
+
+**NOT CONFIRMED** (Δ_D = +0.18; offset-corrected −1.17). The DES Y5-only Late Twist PASS (R2, −5.32) does not survive
+the corrected DES-Dovekie sample. Together with A3 (SURVIVES only with uncorrected DES Y5), the pattern is consistent:
+gains that appear only with DES Y5 shrink or vanish with Dovekie.

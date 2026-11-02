@@ -45,6 +45,8 @@ def grid_files(name):
         n = os.path.basename(p)[4:-5]
         if not sfx and (n.endswith("_desy5") or n.endswith("_dovekie")):
             continue                                      # LD runs (PREREGISTRATION_LATE_DOVEKIE_LEE.md) are not grid points
+        if n.endswith("_nlfix"):
+            continue                                      # NR replication runs are reported separately, never mixed in
         g = re.search(r"_gF(-?[0-9.]+)m(-?[0-9.]+)", n)
         if g:
             lf, lm = float(g.group(1)), float(g.group(2))
@@ -321,7 +323,7 @@ def main():
     edge, hc = [], []
     for p in _g.glob(os.path.join(RES, "cmp_ax_spa_latetwist_gF*.json")):
         n = os.path.basename(p)[4:-5]
-        if n.endswith("_desy5") or n.endswith("_dovekie"):
+        if n.endswith("_desy5") or n.endswith("_dovekie") or n.endswith("_nlfix"):
             continue
         g = _re.search(r"_gF(-?[0-9.]+)m(-?[0-9.]+)", n)
         if g and is_edge(float(g.group(1)), float(g.group(2))):

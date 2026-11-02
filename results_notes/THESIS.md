@@ -45,9 +45,10 @@ That field is tested in two roles:
 | A3 robustness: DES Y5 supernovae (post-hoc) | Early adds −4.70; late gain −20.67 (matches DESI's −21.0) | **SURVIVES with DES Y5**, so **A3 is fragile** across supernova sets |
 | A3 with DES-Dovekie (corrected DES, pre-registered bracket) | Early adds −2.70; late gain −14.20 | **MILD**. "Survives" holds only with the uncorrected DES Y5 sample (known 0.04 mag offset) |
 | A3 minimiser stability (best of 4) | D = −3.96 | **STABLE (MILD)**, but 0.04 from the SURVIVES line |
-| Late Twist (n = 1 field as all dark energy), (F, m) grid | Pantheon+: best +0.96 (≈ −0.4 corrected). DES Y5 (grid + locked edge): best −5.32; look-elsewhere 1.0σ | **Pantheon+: FAIL (a tie once corrected). DES Y5: PASS, but only 1.0σ globally**, and it waits on the Dovekie check. Worse than w0–wa with both SN sets; F at the top of its range. Best fits: w0 ≈ −0.98 / −0.88 |
+| Late Twist (n = 1 field as all dark energy), (F, m) grid | Pantheon+: best +0.96 (≈ −0.4 corrected). DES Y5 (grid + locked edge): best −5.32; look-elsewhere 1.0σ | **Pantheon+: FAIL (a tie once corrected). DES Y5: PASS, but only 1.0σ globally, and NOT CONFIRMED on DES-Dovekie** (+0.18; the DES Y5 best point is +4.27 there). Worse than w0–wa with both SN sets; F at the top of its range. Best fits: w0 ≈ −0.98 / −0.88 |
+| Late Twist high-mass corner (sub-Planckian F, large m) | best +38 vs ΛCDM; most points much worse or non-viable | **WORSE**, as explored here (the closure method may not reach near-hilltop starts) |
 | Late Twist null mirror (frozen-field Λ limit) | +1.35 against true ΛCDM, where it should be 0; **+0.13 on the fixed build** (pass rule < 0.15) | **Two code bugs found and fixed (B0, validated):** AxiCLASS forces an n = 1 axion into δ_m (meant for axion dark matter), and halofit reads an Ω_m that counts the field as matter. Each fix alone fails; both together pass. On the fixed code a slight thaw beats Λ by about 0.85. The verdicts as written stand; the fixed build is separate and post-hoc |
-| Coupled Twist (Late Twist + dark-matter coupling β) | **Preliminary (5 of 9 grid points):** best −6.80 vs ΛCDM at β = −0.044 (Pantheon+); positive-β points −6.15 to −6.47 at β ≈ +0.04 to +0.05. The coupling improves on the uncoupled Twist by 7.8 | Running. **Bimodal small β, with the negative mode preferred: the same pattern as Babu & Amendola (2026, modes near ±0.05).** Still worse than w0–wa. Verdicts final after the grid, C5 and the β profile |
+| Coupled Twist (Late Twist + dark-matter coupling β) | Grid, C5 and β profile complete (as written): best −6.80 vs ΛCDM (≈ −8.2 corrected); abs(β) ≈ 0.05 allowed, 0.1 costs more than 100; the two modes are about equal (−6.07 / −6.93); only β < 0 crosses w = −1 | **C1 PASS, C2 NEEDED, C3 WORSE, C4 CROSSES (negative mode), C5 EXCLUDED** (β = 0.816 is unphysical). Agrees with Babu & Amendola 2026 on the bound, the bimodality and which mode crosses. Corrected-code replication running overnight; it will be the headline |
 | Lock from the dynamics (phase-space test) | No saddle at equality; peak moves ×3.5 (×2.9 with coupling) over 100× in Λ⁴ | **NO LOCK**: the lock stays an assumption |
 | Pipeline check against DESI DR2 | Late gain −10.95 / −20.67 against DESI's −10.7 / −21.0 | **Matches** within 0.33 |
 | Potential power n = 2 instead of 3 | 10.35 worse (poorly converged) | n = 3 favoured |
@@ -143,3 +144,25 @@ The method is the contribution:
 arXiv bundle (`arxiv_upload/`, 06:46) is out of date and will be rebuilt when they finish.
 
 **Every number** traces to a file in AEGIS `cmb-fit/results` or the CubeMind folder.
+
+## Final results (2 November 2026; supersedes earlier "pending" lines)
+
+**Tiers:** EVIDENCE = measured under locked rules; HYPOTHESIS = the model; MEANING = our reading.
+
+- **Late Twist, on corrected code (EVIDENCE):**
+  - Pantheon+: ties ΛCDM (+0.09).
+  - DES Y5: −6.23, a weak hint at 1.3σ global, which WEAKENS on DES-Dovekie (−1.33).
+  - It always loses to w0–wa.
+  - S8 is NEUTRAL.
+- **Coupled Twist, on corrected code (EVIDENCE):**
+  - −7.91 with β ≈ ±0.05, still WORSE than w0–wa.
+  - S8 WORSENS (+0.84σ against DES Y6).
+  - The torsion-natural β = 0.816 is EXCLUDED.
+- **Birefringence (EVIDENCE):**
+  - The minimal field cannot produce the measured angle: EXCLUDED.
+  - With one added photon coupling it predicts R = 0.997 (switch-on z ≈ 1.5). OPEN, for LiteBIRD.
+- **Spins (EVIDENCE):** b₀ ≈ 10⁻⁴³ GeV, 10¹⁰ below the lab limits. PASS: safe and invisible.
+- **Ratio patterns (EVIDENCE):** silver NOT SUPPORTED; golden NOT REPLICATED on new atoms.
+- **Bottom line (MEANING):** a carefully tested torsion-motivated field with weak, sample-dependent hints, and one
+  clean open prediction (R). It is not a detection. The method (rules first, every loss kept, the two AxiCLASS bugs
+  found and fixed) is the most solid contribution.

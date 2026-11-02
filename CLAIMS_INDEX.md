@@ -1,6 +1,7 @@
 # Claims index: every claim, its rule, its evidence, its verdict
 
-**Status:** working copy, 1 November 2026. *Pending* rows are filled in when tonight's fits finish.
+**Status:** final, 2 November 2026. Every pre-registered test has a verdict. Late-field verdicts are given as written
+and on corrected code (NR); the corrected-code verdict is the headline.
 
 **Paths:**
 - `P/` = `preregistrations/`
@@ -33,24 +34,39 @@ Each rule's hash is in `P/<rule>.sha256`. When it was committed is in `LOCK_TIME
 
 | # | Claim / test | Verdict | Rule | Write-up | Key files |
 |---|---|---|---|---|---|
-| L1 | Late Twist vs ΛCDM (Pantheon+) | FAIL as written (+0.96); ≈ −0.4 offset-corrected; *grid pending* | `P/PREREGISTRATION_LATE_TWIST.md` + deviation 08:58 | `N/LATE_TWIST_RESULTS.md` | `F/cmp_ax_spa_latetwist_gF*.json` |
-| L2 | Late Twist vs w0–wa | WORSE; *grid pending* | same | same | same |
-| L3 | F, m in natural range | INCONSISTENT (F at prior edge); *pending* | same | same | same |
-| L4 | Shared F (one decay constant) | DIFFERENT so far; *pending* | `P/PREREGISTRATION_SHARED_F.md` | same | `F/earlyF_*.json` |
-| R2 | L1 with DES Y5 | PASS so far (−5.32, preliminary) | `P/PREREGISTRATION_ROBUSTNESS.md` | `N/ROBUSTNESS_RESULTS.md` | `F/*_desy5.json` |
-| ES | Edge scan | *pending* | `P/PREREGISTRATION_EDGE_SCAN.md` | — | `C/axiclass/run_edge.sh` |
-| LD | Late Twist on DES-Dovekie | *pending* (expected WEAKENED / NOT CONFIRMED) | `P/PREREGISTRATION_LATE_DOVEKIE_LEE.md` | — | `C/axiclass/pick_late_dovekie.py` |
-| LEE-G | Grid look-elsewhere | DES Y5 WEAK HINT so far; Pantheon+ NOT SIGNIFICANT | same | — | `C/analysis/rank_models.py` |
-| HC | High-mass corner | *pending* | `P/PREREGISTRATION_HIGH_MASS_CORNER.md` | — | `C/axiclass/run_hc.sh` |
-| NM | Null mirror (code check) | +1.35 halofit artefact; cause confirmed | post-hoc check | `N/LATE_TWIST_NULL_MIRROR.md` | `F/null_mirror_*.json` |
+| L1 | Late Twist vs ΛCDM (Pantheon+) | **NR: FAIL (+0.09, a tie)**; as written FAIL (+0.96) | `P/PREREGISTRATION_LATE_TWIST.md` + deviation 08:58 | `N/LATE_TWIST_RESULTS.md` | `F/cmp_ax_spa_latetwist_gF*.json` |
+| L2 | Late Twist vs w0–wa | **NR: WORSE** (D +10.05 / +13.53); as written WORSE | same | same | same |
+| L3 | F, m in natural range | **NR: CONSISTENT**; as written INCONSISTENT | same | same | same |
+| L4 | Shared F (one decay constant) | DIFFERENT | `P/PREREGISTRATION_SHARED_F.md` | same | `F/earlyF_*.json` |
+| R2 | L1 with DES Y5 | **NR: PASS (−6.23)**; as written PASS (−5.32) | `P/PREREGISTRATION_ROBUSTNESS.md` | `N/ROBUSTNESS_RESULTS.md` | `F/*_desy5.json` |
+| ES | Edge scan | done (32/32 DES Y5 points accounted) | `P/PREREGISTRATION_EDGE_SCAN.md` | `N/LATE_TWIST_RESULTS.md` | `C/axiclass/run_edge.sh` |
+| LD | Late Twist on DES-Dovekie | **NR: WEAKENED (−1.33)**; as written NOT CONFIRMED (+0.18) | `P/PREREGISTRATION_LATE_DOVEKIE_LEE.md` | `N/LATE_TWIST_RESULTS.md` | `C/axiclass/pick_late_dovekie.py` |
+| LEE-G | Grid look-elsewhere | **NR: DES Y5 WEAK HINT (1.27σ global)**; Pantheon+ NOT SIGNIFICANT | same | same | `C/analysis/rank_models.py` |
+| HC | High-mass corner | **NR: WORSE (+37.0)**; as written WORSE (+38.0) | `P/PREREGISTRATION_HIGH_MASS_CORNER.md` | `N/LATE_TWIST_RESULTS.md` | `C/axiclass/run_hc.sh` |
+| NM | Null mirror (code check) | two AxiCLASS bugs found and fixed; fixed build +0.13 PASS | post-hoc check + deviations 14:34:07, 14:41:32 | `N/LATE_TWIST_NULL_MIRROR.md` | `F/null_mirror_*.json` |
+| NR | Replication of every n = 1 test on corrected code | done; side-by-side table | `P/PREREGISTRATION_NLFIX_REPLICATION.md` | `N/LATE_TWIST_RESULTS.md` | `F/*_nlfix.json` |
+| S8 | S8 on corrected code | Late Twist NEUTRAL; Coupled Twist WORSENS (+0.84σ vs DES Y6) | `P/PREREGISTRATION_S8_FIXED_CODE.md` | `N/S8_FIXED_CODE_RESULTS.md` | `F/s8_fixed_code.json` |
 
 ## Coupled Twist
 
 | # | Claim / test | Verdict | Rule | Write-up | Key files |
 |---|---|---|---|---|---|
 | V1–V4 | Code validation gates | PASS | `P/PREREGISTRATION_COUPLED_TWIST.md` | `N/COUPLED_TWIST_GATES.md` | `C/coupled/gates.py` |
-| C1–C4 | Coupling needed? phantom crossing? | *pending* | same | — | `C/coupled/coupled_weff.py` |
-| C5 | Torsion-natural β = 0.816 | *pending* (expected EXCLUDED) | same + deviation 08:39 | — | — |
+| C1 | Coupled vs ΛCDM | **NR: PASS (−7.91)**; as written PASS (−6.80) | same | `N/COUPLED_TWIST_RESULTS.md` | `F/cmp_ax_spa_coupledtwist_*.json` |
+| C2 | Coupling needed | **NR: NEEDED (−8.00)**; as written NEEDED | same | same | same |
+| C3 | Coupled vs w0–wa (ΔAIC) | **NR: WORSE (+4.05)**; as written WORSE (+5.16) | same | same | same |
+| C5 | Torsion-natural β = 0.816 | **EXCLUDED** (both codes; NR +71,655 for either sign) | same + deviation 08:39 | same | `F/cmp_*beta*0.816*.json` |
+| βP | β profile (NR) | bimodal: ±0.05 → −7.37 / −7.34; 0 → −0.63; −0.1 / +0.1 → +128 / +94 | same | same | `F/cmp_*beta*_nlfix.json` |
+
+## Birefringence and spin (photon and fermion couplings)
+
+| # | Claim / test | Verdict | Rule | Write-up | Key files |
+|---|---|---|---|---|---|
+| B4 | Minimal field explains the measured CMB rotation | **EXCLUDED** (primary, 4.0σ); the generous S = 8 reading is CONSISTENT only at the DES Y5 fit and target-sensitive | `P/PREREGISTRATION_B4_BIREFRINGENCE.md` | `N/B4_BIREFRINGENCE_RESULTS.md` | `F/b4_delta_theta.json` |
+| B4-X | One added photon coupling: switch ratio R | fits by construction; **R = 0.997, OPEN** (LiteBIRD) | `P/PREREGISTRATION_B4X_PHOTON_COUPLING.md` | `N/B4X_SWITCH_RESULTS.md` | `F/b4x_switch.json` |
+| X7 | Atomic spin echo below lab limits | **PASS** (b₀ ≈ 10⁻⁴³ GeV, 10¹⁰ below the neutron bound) | same | same | same |
+| X9 | Silver (quantum) / golden (atomic) ratio spacings | NOT SUPPORTED / SUGGESTIVE (p 0.044) | same | same | `b4x_ratio_test.json` |
+| G2/S2/S3 | Ratio replication on new data | golden NOT REPLICATED (p 0.56); silver NOT SUPPORTED; switch value DEFINITION-DEPENDENT | `P/PREREGISTRATION_RATIO_REPLICATION.md` | `N/RATIO_REPLICATION_RESULTS.md` | `ratio_replication_test.json` |
 
 ## History and art track (not evidence for the physics)
 
