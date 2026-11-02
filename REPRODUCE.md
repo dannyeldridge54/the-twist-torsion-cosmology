@@ -13,6 +13,7 @@ There are three levels. Each needs more setup than the one before. Most reviewer
 ```
 python verify.py                                        # every rule vs its .sha256; every file vs MANIFEST.txt
 python code/analysis/nr_verdicts.py                     # every late-field verdict, as written and on corrected code
+python code/analysis/paper_numbers_check.py             # 26 key numbers in the paper recomputed from fit_results/
 ```
 
 - `LOCK_TIMES.md` shows that each rule entered version control before its result.

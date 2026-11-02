@@ -42,7 +42,7 @@ GROUPS = {
                                        "lock_attractor.py", "look_elsewhere.py", "auto_judge.py",
                                        "step2_potential.py", "step3b_trigger.py", "nr_verdicts.py",
                                        "b4_birefringence_numbers.py", "b4x_ratio_test.py",
-                                       "ratio_replication_test.py")],
+                                       "ratio_replication_test.py", "paper_numbers_check.py")],
     "history_track": [CM + "\\" + f for f in (
         "OLD_SOURCES_LOG.md", "WELLING_K7.md", "welling_k7.py", "welling_k7.png", "STAR_FRACTAL_RESULTS.md",
         "STAR_FRACTAL_RESULTS.json", "star_fractal.py", "star_fractal.png", "aizawa_check.py", "aizawa_check.png",

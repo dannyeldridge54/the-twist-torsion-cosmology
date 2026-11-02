@@ -32,7 +32,11 @@ Take any Δχ²: it is χ²(model) − χ²(ΛCDM reference), read straight from
 python -c "import json;f=lambda n:json.load(open(f'fit_results/cmp_{n}.json'))['minimum']['chi2'];print(f('ax_spa_latetwist_gF0m0.102_desy5_nlfix')-f('ax_spa_lcdm_halofit_desy5'))"
 ```
 
-This should print −6.23. `code/analysis/nr_verdicts.py` applies every rule and prints the full side-by-side table.
+This should print −6.23.
+- `code/analysis/nr_verdicts.py` applies every rule and prints the full side-by-side table.
+- `code/analysis/paper_numbers_check.py` recomputes 26 key numbers in the paper from the fit files and fails on any
+  mismatch. Its first run caught a rounding slip (−6.14 printed for −6.1345), now corrected with a dated note in the
+  results records.
 
 ## 4. Are the code bugs real? (1 minute with AxiCLASS installed)
 
